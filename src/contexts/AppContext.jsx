@@ -10,7 +10,6 @@ export function AppProvider({ children }) {
 		figurinos: [],
 		about: [],
 		styling: [],
-		menuItems: [],
 		hospital: {}
 	};
 
@@ -62,14 +61,6 @@ export function AppProvider({ children }) {
 		}
 	}
 
-	async function fetchMenuItems() {
-		try {
-			const menuItems = await getMenuItems();
-			dispatch({ type: 'SET_MENU', payload: menuItems.menuItems });
-		} catch (error) {
-			console.log('ERRO', error);
-		}
-	}
 
-	return <AppContext.Provider value={{ fetchHospital, fetchMenuItems, fetchStyling, fetchColec, fetchFigur, fetchAbout, ...state }}>{children}</AppContext.Provider>;
+	return <AppContext.Provider value={{ fetchHospital, fetchStyling, fetchColec, fetchFigur, fetchAbout, ...state }}>{children}</AppContext.Provider>;
 }

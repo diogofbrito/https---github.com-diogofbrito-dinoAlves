@@ -1,15 +1,10 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { AppContext } from '../../contexts/AppContext';
+import React, {  useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './style.css';
 
 export function Menu() {
-	const { menuItems, fetchMenuItems } = useContext(AppContext);
 	const [menuOpen, setMenuOpen] = useState(false);
 
-	useEffect(() => {
-		fetchMenuItems();
-	}, []);
 
 	function toggleMenu() {
 		setMenuOpen(!menuOpen);
@@ -30,13 +25,14 @@ export function Menu() {
 					<div className='menu__logo'>DINO ALVES</div>
 					<div className='menu__items'>
 						<ul>
-							{menuItems.map(item => (
-								<li key={item.id}>
-									<NavLink to={item.url} onClick={handleNavLinkClick}>
-										{item.label}
-									</NavLink>
-								</li>
-							))}
+							<li><NavLink to='/' onClick={handleNavLinkClick}>Home</NavLink></li>
+							<li><NavLink to='/Sobre' onClick={handleNavLinkClick}>Sobre</NavLink></li>
+							<li><NavLink to='/Colecoes' onClick={handleNavLinkClick}>Colecões</NavLink></li>
+							<li><NavLink to='/Figurinos' onClick={handleNavLinkClick}>Figurinos</NavLink></li>
+							<li><NavLink to='/Styling' onClick={handleNavLinkClick}>Styling</NavLink></li>
+							<li><NavLink to='/HospitalDaRoupa' onClick={handleNavLinkClick}>Hospital da Roupa</NavLink></li>
+							<li><NavLink to='/Contato' onClick={handleNavLinkClick}>Contato</NavLink></li>
+							
 						</ul>
 					</div>
 					<div className='menu__close'>

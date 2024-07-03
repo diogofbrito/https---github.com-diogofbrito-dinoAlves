@@ -1,0 +1,14 @@
+{
+	"menuItems": 
+	[
+		{ "id": 1, "url": "/", "label": "Home" },
+		{ "id": 3, "url": "/Colecoes", "label": "Coleções" },
+		{ "id": 4, "url": "/Figurinos", "label": "Figurinos" },
+		{ "id": 5, "url": "/Projetos-Especiais", "label": "Projetos Especiais" },
+		{ "id": 6, "url": "/Styling", "label": "Styling" },
+		{ "id": 7, "url": "/HospitaldaRoupa", "label": "Hospital da Roupa" },
+		{ "id": 2, "url": "/Sobre", "label": "Sobre" },
+		{ "id": 8, "url": "/Press", "label": "Press" },
+		{ "id": 9, "url": "/Contactos", "label": "Contactos" }
+	]
+}

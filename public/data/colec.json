@@ -1,0 +1,306 @@
+{
+	"colecoes": [
+		{
+			"id": 1,
+			"title": "Vitória!",
+			"subTitle": "FW 24/25",
+			"path": "FW2425",
+			"highlights": [
+				"../../src/assets/images/Colecoes/FW2425/FW2425_05.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_15.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_25.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_08.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_11.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_16.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_33.jpeg"
+			],
+			"images": [
+				"../../src/assets/images/Colecoes/FW2425/FW2425_01.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_02.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_03.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_04.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_05.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_06.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_07.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_08.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_09.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_10.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_11.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_12.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_13.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_14.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_15.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_16.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_17.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_18.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_19.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_20.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_21.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_22.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_23.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_24.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_25.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_26.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_27.jpeg",
+				"../../src/assets/images/Colecoes/FW2425/FW2425_28.jpeg"
+			],
+			"alt": "Coleção Outono/Inverno 24/25",
+			"videoUrl": "https://vod.api.video/vod/vi2AALfHAOIEE6fHxT7FOqAG/mp4/source.mp4",
+			"descricao": [
+				{
+					"conceito": "No final de contas, tal como no futebol, o que todos queremos na vida é alcançar vitórias! É para isso que vivemos. Para nos superarmos, desafiarmos e nos realizarmos. Quando executamos bem um projeto ou uma tarefa que nos propomos fazer, sentimos a sensação de vitória. Assim como quando nos apaixonamos e conseguimos que se apaixonem por nós. A paixão de muitos adeptos pelos seus clubes faz com que sintam as vitórias como pessoais, como se, de certa forma, pertencessem às equipas. E pertencem! Esta coleção FW24/25 é um desafio para o Designer. Inspirar-se no futebol. Concretizá-la com resultados com que se identifique e se reveja terá também sabor a vitória. Este desfile pretende celebrar a competição saudável, a alegria da vitória e não a da derrota da equipa adversária, o fair play de muitos atletas e dos seus adeptos, a paz e empatia nos relvados e nas bancadas, a alegria de partilhar emoções no momento do golo. Homenageia os craques do futebol português de todos os tempos e também os novos valores, como por exemplo, atletas femininas.Representa um clube de futebol fictício através de um emblema criado pelo Designer, e que unifica o que poderia ser uma equipa de futebol Dino Alves."
+				},
+				{
+					"detalhes": "Saias midi com franzido faustoso e saiotes que criam uma silhueta anos 50 e que remete para trajes do folclore regional. Blusas de laçada e outras peças associadas a uma vida discreta e recatada mas com tecidos mais “espampanantes” e atrevidos. Cinturas bem marcadas e ancas salientadas.Uso de elementos decorativos retirados de trajes regionais e aplicados de uma forma contemporânea.Aplicação de fitas, e outros elementos a criar elementos florais e outros em peças mais futuristas e mínimas."
+				},
+				{
+					"materiais": "blablala"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"title": "DNLVS Team",
+			"subTitle": "SS 24",
+			"path": "SS24",
+			"highlights": [
+				"../../src/assets/images/Colecoes/SS24/SS24_01.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_11.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_32.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_21.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_08.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_28.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_22.jpg"
+			],
+			"images": [
+				"../../src/assets/images/Colecoes/SS24/SS24_01.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_02.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_03.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_04.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_05.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_06.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_07.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_08.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_09.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_10.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_11.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_12.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_13.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_14.jpg",
+				"../../src/assets/images/Colecoes/SS24/SS24_15.jpg"
+			],
+			"videoUrl": "https://vod.api.video/vod/vi2AALfHAOIEE6fHxT7FOqAG/mp4/source.mp4",
+			"descricao": [
+				{
+					"conceito": "A sigla DNLVS team, que Dino Alves apresentou muito subtilmente numa estação anterior, é agora usada como título da coleção SS 24, com o intuito de identificar e reforçar um grupo que na verdade já existe: uma espécie de clã, de gang que o designer foi conquistando ao longo dos tempos e que considera a sua equipa – DNLVS Team – onde inclui não só a equipa do atelier, mas também o público e seguidores que acompanham os seus desfiles ao longo dos anos, os colaboradores, clientes, fãs do seu trabalho e amigos que estão sempre por perto e que constituem uma espécie de claque, como acontece, por exemplo, no futebol. Desta DNLVS Team fazem também parte os parceiros e patrocinadores, como nos últimos tempos a Betclic que tem desafiado o designer a sair da sua zona de inspiração e acreditado no seu trabalho. Esta coleção é um agradecimento e uma homenagem a essa sua equipa. Focando-se mais no núcleo do atelier, Dino Alves recria, através das peças, um pouco do ambiente, das tarefas, das etapas, do metier e savoir faire das costureiras, resgatando algumas ideias que ficaram perdidas ou explorando melhor outras que apontou em coleções anteriores. Na sequência da preocupação da marca Dino Alves com a sustentabilidade, a coleção inclui um núcleo de peças da marca 2nd upcycled label, Dino Alves X Mister Man."
+				},
+				{
+					"detalhes": "blablala"
+				},
+				{
+					"materiais": "blablala"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"title": "Trans—Forma",
+			"subTitle": "FW 23/24",
+			"path": "FW2324",
+			"highlights": [
+				"../../src/assets/images/Colecoes/FW2324/FW2324_04.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_14.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_22.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_45.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_44.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_31.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_13.jpg"
+			],
+			"images": [
+				"../../src/assets/images/Colecoes/FW2324/FW2324_01.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_02.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_03.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_04.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_05.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_06.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_07.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_08.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_09.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_10.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_11.jpg"
+			],
+			"videoUrl": "https://vod.api.video/vod/vi2AALfHAOIEE6fHxT7FOqAG/mp4/source.mp4",
+			"descricao": [
+				{
+					"Conceito": "blablala"
+				},
+				{
+					"Detalhes": "blablala"
+				},
+				{
+					"Materiais": "blablala"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"title": "POP",
+			"subTitle": "SS 23",
+			"path": "SS23",
+			"highlights": [
+				"../../src/assets/images/Colecoes/FW2324/FW2324_04.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_14.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_22.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_45.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_44.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_31.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_13.jpg"
+			],
+			"images": [
+				"../../src/assets/images/Colecoes/FW2324/FW2324_01.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_02.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_03.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_04.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_05.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_06.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_07.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_08.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_09.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_10.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_11.jpg"
+			],
+			"videoUrl": "https://vod.api.video/vod/vi2AALfHAOIEE6fHxT7FOqAG/mp4/source.mp4",
+			"descricao": [
+				{
+					"Conceito": "blablala"
+				},
+				{
+					"Detalhes": "blablala"
+				},
+				{
+					"Materiais": "blablala"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"title": "Bairro",
+			"subTitle": "FW 22/23",
+			"path": "FW2223",
+			"highlights": [
+				"../../src/assets/images/Colecoes/FW2324/FW2324_04.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_14.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_22.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_45.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_44.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_31.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_13.jpg"
+			],
+			"images": [
+				"../../src/assets/images/Colecoes/FW2324/FW2324_01.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_02.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_03.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_04.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_05.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_06.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_07.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_08.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_09.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_10.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_11.jpg"
+			],
+			"videoUrl": "https://vod.api.video/vod/vi2AALfHAOIEE6fHxT7FOqAG/mp4/source.mp4",
+			"descricao": [
+				{
+					"Conceito": "blablala"
+				},
+				{
+					"Detalhes": "blablala"
+				},
+				{
+					"Materiais": "blablala"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"title": "2020",
+			"subTitle": "SEASONLESS 21",
+			"path": "SEASONLESS21",
+			"highlights": [
+				"../../src/assets/images/Colecoes/FW2324/FW2324_04.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_14.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_22.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_45.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_44.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_31.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_13.jpg"
+			],
+			"images": [
+				"../../src/assets/images/Colecoes/FW2324/FW2324_01.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_02.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_03.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_04.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_05.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_06.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_07.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_08.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_09.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_10.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_11.jpg"
+			],
+			"videoUrl": "https://vod.api.video/vod/vi2AALfHAOIEE6fHxT7FOqAG/mp4/source.mp4",
+			"descricao": [
+				{
+					"Conceito": "blablala"
+				},
+				{
+					"Detalhes": "blablala"
+				},
+				{
+					"Materiais": "blablala"
+				}
+			]
+		},
+		{
+			"id": 7,
+			"title": "Ontem, Hoje e Amanhã",
+			"subTitle": "FW 20/21",
+			"path": "FW2021",
+			"highlights": [
+				"../../src/assets/images/Colecoes/FW2324/FW2324_04.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_14.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_22.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_45.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_44.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_31.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_13.jpg"
+			],
+			"images": [
+				"../../src/assets/images/Colecoes/FW2324/FW2324_01.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_02.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_03.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_04.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_05.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_06.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_07.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_08.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_09.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_10.jpg",
+				"../../src/assets/images/Colecoes/FW2324/FW2324_11.jpg"
+			],
+			"videoUrl": "https://vod.api.video/vod/vi2AALfHAOIEE6fHxT7FOqAG/mp4/source.mp4",
+			"descricao": [
+				{
+					"Conceito": "blablala"
+				},
+				{
+					"Detalhes": "blablala"
+				},
+				{
+					"Materiais": "blablala"
+				}
+			]
+		}
+	]
+}

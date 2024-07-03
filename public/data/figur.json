@@ -1,0 +1,52 @@
+{
+	"figurinos": [
+		{
+			"id": 1,
+			"title": "Muito Barulho por Nada",
+			"path": "2023",
+			"category": "Teatro",
+			"highlights": [
+				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
+				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
+				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
+				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg"
+			]
+		},
+		{
+			"id": 2,
+			"title": "Muito Barulho por Nada",
+			"path": "2023",
+			"category": "Teatro",
+			"highlights": [
+				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
+				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
+				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
+				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg"
+			]
+		},
+		{
+			"id": 3,
+			"title": "Muito Barulho por Nada",
+			"path": "2023",
+			"category": "Teatro",
+			"highlights": [
+				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
+				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
+				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
+				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg"
+			]
+		},
+		{
+			"id": 4,
+			"title": "Muito Barulho por Nada",
+			"path": "2022",
+			"category": "Teatro",
+			"highlights": [
+				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
+				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
+				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
+				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg"
+			]
+		}
+	]
+}

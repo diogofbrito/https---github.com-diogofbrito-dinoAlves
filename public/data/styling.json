@@ -1,0 +1,38 @@
+{
+	"styling": [
+		{
+			"id": 1,
+			"title": "Lux Frágil NYE 22-23",
+			"highlights": [
+				"../../src/assets/images/Styling/2022/STYL_2022_01.jpg",
+				"../../src/assets/images/Styling/2022/STYL_2022_02.jpg",
+				"../../src/assets/images/Styling/2022/STYL_2022_03.jpg"
+				
+			]
+		},
+		{
+			"id": 2,
+			"title": "Trans—Forma",
+			"highlights": [
+				"../../src/assets/transforma/DA_2324_1.jpg",
+				"../../src/assets/transforma/DA_2324_2.jpg",
+				"../../src/assets/transforma/DA_2324_3.jpg",
+				"../../src/assets/transforma/DA_2324_4.jpg",
+				"../../src/assets/transforma/DA_2324_5.jpg",
+				"../../src/assets/transforma/DA_2324_6.jpg"
+			]
+		},
+		{
+			"id": 3,
+			"title": "Pop",
+			"highlights": [
+				"../../src/assets/pop/DA_23_1.jpg",
+				"../../src/assets/pop/DA_23_2.jpg",
+				"../../src/assets/pop/DA_23_3.jpg",
+				"../../src/assets/pop/DA_23_4.jpg",
+				"../../src/assets/pop/DA_23_5.jpg",
+				"../../src/assets/pop/DA_23_6.jpg"
+			]
+		}
+	]
+}

@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
-import './style.css';
 
 export function IntroPage() {
 	const comp = useRef(null);
@@ -36,7 +35,7 @@ export function IntroPage() {
 	return (
 		<>
 			<div className='introPage' ref={comp}>
-				<div id='intro__slider' className='home__logo'>
+				<div id='intro__slider' className='fixed flex justify-center items-center bg-white top-0 left-0 bottom-0 right-0 z-50'>
 					<img id='title_1' src='/imgs/Logo/DA_logo.png' alt='Dino Alves logo' />
 				</div>
 			</div>

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-	baseURL: '../../public/data/',
+	baseURL: '/data/',
 });
 
 export async function fetchData(endpoint) {
@@ -22,18 +22,6 @@ export async function getFigur() {
 	return await fetchData('figur');
 }
 
-export async function getAbout() {
-	return await fetchData('about');
-}
-
 export async function getStyling() {
 	return await fetchData('styling');
-}
-
-export async function getHospital() {
-	return await fetchData('hospitalRoupa');
-}
-
-export async function getMenuItems() {
-	return await fetchData('menuItems');
 }

@@ -1,18 +1,1 @@
-.home__logo {
-	position: fixed;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	width: 100%;
-	background-color: var(--white);
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: 99999;
-}
 
-.home__logo h1 {
-	color: white;
-}

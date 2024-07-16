@@ -3,16 +3,13 @@
 		{
 			"id": 1,
 			"title": "Lux Frágil NYE 22-23",
-			"highlights": [
-				"../../src/assets/images/Styling/2022/STYL_2022_01.jpg",
-				"../../src/assets/images/Styling/2022/STYL_2022_02.jpg",
-				"../../src/assets/images/Styling/2022/STYL_2022_03.jpg"
-				
-			]
+			"year": "2022",
+			"highlights": ["../../src/assets/images/Styling/2022/STYL_2022_01.jpg", "../../src/assets/images/Styling/2022/STYL_2022_02.jpg", "../../src/assets/images/Styling/2022/STYL_2022_03.jpg"]
 		},
 		{
 			"id": 2,
-			"title": "Trans—Forma",
+			"title": "Karacter Model Tour",
+			"year": "2021",
 			"highlights": [
 				"../../src/assets/transforma/DA_2324_1.jpg",
 				"../../src/assets/transforma/DA_2324_2.jpg",
@@ -24,7 +21,73 @@
 		},
 		{
 			"id": 3,
-			"title": "Pop",
+			"title": "The Gift - Coral",
+			"year": "2021",
+			"highlights": [
+				"../../src/assets/pop/DA_23_1.jpg",
+				"../../src/assets/pop/DA_23_2.jpg",
+				"../../src/assets/pop/DA_23_3.jpg",
+				"../../src/assets/pop/DA_23_4.jpg",
+				"../../src/assets/pop/DA_23_5.jpg",
+				"../../src/assets/pop/DA_23_6.jpg"
+			]
+		},
+		{
+			"id": 4,
+			"title": "Revista Fora de Série V",
+			"year": "2013",
+			"highlights": [
+				"../../src/assets/pop/DA_23_1.jpg",
+				"../../src/assets/pop/DA_23_2.jpg",
+				"../../src/assets/pop/DA_23_3.jpg",
+				"../../src/assets/pop/DA_23_4.jpg",
+				"../../src/assets/pop/DA_23_5.jpg",
+				"../../src/assets/pop/DA_23_6.jpg"
+			]
+		},
+		{
+			"id": 5,
+			"title": "Revista Fora de Série IV",
+			"year": "2013",
+			"highlights": [
+				"../../src/assets/pop/DA_23_1.jpg",
+				"../../src/assets/pop/DA_23_2.jpg",
+				"../../src/assets/pop/DA_23_3.jpg",
+				"../../src/assets/pop/DA_23_4.jpg",
+				"../../src/assets/pop/DA_23_5.jpg",
+				"../../src/assets/pop/DA_23_6.jpg"
+			]
+		},
+		{
+			"id": 6,
+			"title": "Revista Fora de Série III",
+			"year": "2010",
+			"highlights": [
+				"../../src/assets/pop/DA_23_1.jpg",
+				"../../src/assets/pop/DA_23_2.jpg",
+				"../../src/assets/pop/DA_23_3.jpg",
+				"../../src/assets/pop/DA_23_4.jpg",
+				"../../src/assets/pop/DA_23_5.jpg",
+				"../../src/assets/pop/DA_23_6.jpg"
+			]
+		},
+		{
+			"id": 7,
+			"title": "Revista Fora de Série II",
+			"year": "2009",
+			"highlights": [
+				"../../src/assets/pop/DA_23_1.jpg",
+				"../../src/assets/pop/DA_23_2.jpg",
+				"../../src/assets/pop/DA_23_3.jpg",
+				"../../src/assets/pop/DA_23_4.jpg",
+				"../../src/assets/pop/DA_23_5.jpg",
+				"../../src/assets/pop/DA_23_6.jpg"
+			]
+		},
+		{
+			"id": 8,
+			"title": "Revista Fora de Série I",
+			"year": "2007",
 			"highlights": [
 				"../../src/assets/pop/DA_23_1.jpg",
 				"../../src/assets/pop/DA_23_2.jpg",

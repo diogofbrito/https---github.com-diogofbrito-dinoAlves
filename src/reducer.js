@@ -8,12 +8,6 @@ export function reducer(state, action) {
 			return { ...state, colecoes: payload };
 		case 'SET_FIGURINOS':
 			return { ...state, figurinos: payload };
-		case 'SET_ABOUT':
-			return { ...state, about: payload };
-		case 'SET_MENU':
-			return { ...state, menuItems: payload };
-		case 'SET_HOSPITAL':
-			return { ...state, hospital: payload };
 		default:
 			return state;
 	}

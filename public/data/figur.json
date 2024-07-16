@@ -3,49 +3,182 @@
 		{
 			"id": 1,
 			"title": "Muito Barulho por Nada",
-			"path": "2023",
+			"year": "2022",
 			"category": "Teatro",
 			"highlights": [
-				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
-				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
-				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
-				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg"
+				"/imgs/Figurinos/2022/Muito barulho por Nada/2022_MUITO_01.webp",
+				"/imgs/Figurinos/2022/Muito barulho por Nada/2022_MUITO_02.webp",
+				"/imgs/Figurinos/2022/Muito barulho por Nada/2022_MUITO_03.webp",
+				"/imgs/Figurinos/2022/Muito barulho por Nada/2022_MUITO_04.webp",
+				"/imgs/Figurinos/2022/Muito barulho por Nada/2022_MUITO_05.webp",
+				"/imgs/Figurinos/2022/Muito barulho por Nada/2022_MUITO_06.webp",
+				"/imgs/Figurinos/2022/Muito barulho por Nada/2022_MUITO_07.webp",
+				"/imgs/Figurinos/2022/Muito barulho por Nada/2022_MUITO_08.webp"
 			]
 		},
 		{
 			"id": 2,
-			"title": "Muito Barulho por Nada",
-			"path": "2023",
+			"title": "Jardim das Cerejeiras",
+			"year": "2021",
 			"category": "Teatro",
 			"highlights": [
-				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
-				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
-				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
-				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg"
+				"/imgs/Figurinos/2021/Jardim das Cerejeiras/2021_JARDIM_01.webp",
+				"/imgs/Figurinos/2021/Jardim das Cerejeiras/2021_JARDIM_02.webp",
+				"/imgs/Figurinos/2021/Jardim das Cerejeiras/2021_JARDIM_03.webp",
+				"/imgs/Figurinos/2021/Jardim das Cerejeiras/2021_JARDIM_04.webp",
+				"/imgs/Figurinos/2021/Jardim das Cerejeiras/2021_JARDIM_05.webp",
+				"/imgs/Figurinos/2021/Jardim das Cerejeiras/2021_JARDIM_06.webp",
+				"/imgs/Figurinos/2021/Jardim das Cerejeiras/2021_JARDIM_07.webp",
+				"/imgs/Figurinos/2021/Jardim das Cerejeiras/2021_JARDIM_08.webp"
 			]
 		},
 		{
 			"id": 3,
-			"title": "Muito Barulho por Nada",
-			"path": "2023",
+			"title": "Ricardo III",
+			"year": "2020",
 			"category": "Teatro",
 			"highlights": [
-				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
-				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
-				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
-				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg"
+				"/imgs/Figurinos/2020/Ricardo III/2020_RICARDO_01.webp",
+				"/imgs/Figurinos/2020/Ricardo III/2020_RICARDO_02.webp",
+				"/imgs/Figurinos/2020/Ricardo III/2020_RICARDO_03.webp",
+				"/imgs/Figurinos/2020/Ricardo III/2020_RICARDO_04.webp",
+				"/imgs/Figurinos/2020/Ricardo III/2020_RICARDO_05.webp",
+				"/imgs/Figurinos/2020/Ricardo III/2020_RICARDO_06.webp",
+				"/imgs/Figurinos/2020/Ricardo III/2020_RICARDO_07.webp",
+				"/imgs/Figurinos/2020/Ricardo III/2020_RICARDO_08.webp"
 			]
 		},
 		{
 			"id": 4,
-			"title": "Muito Barulho por Nada",
-			"path": "2022",
+			"title": "Ascenção de Arturo UI",
+			"year": "2020",
 			"category": "Teatro",
 			"highlights": [
-				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
-				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
-				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg",
-				"../../src/assets/images/Figurinos/2022/Muito barulho por Nada/F22_MBPN_01.jpeg"
+				"/imgs/Figurinos/2020/Ascencao de Arturo UI/2020_ASCENCAO_01.webp",
+				"/imgs/Figurinos/2020/Ascencao de Arturo UI/2020_ASCENCAO_02.webp",
+				"/imgs/Figurinos/2020/Ascencao de Arturo UI/2020_ASCENCAO_03.webp",
+				"/imgs/Figurinos/2020/Ascencao de Arturo UI/2020_ASCENCAO_04.webp",
+				"/imgs/Figurinos/2020/Ascencao de Arturo UI/2020_ASCENCAO_05.webp",
+				"/imgs/Figurinos/2020/Ascencao de Arturo UI/2020_ASCENCAO_06.webp",
+				"/imgs/Figurinos/2020/Ascencao de Arturo UI/2020_ASCENCAO_07.webp",
+				"/imgs/Figurinos/2020/Ascencao de Arturo UI/2020_ASCENCAO_08.webp"
+			]
+		},
+		{
+			"id": 5,
+			"title": "Sonho de Uma Noite de Verão",
+			"year": "2019",
+			"category": "Teatro",
+			"highlights": [
+				"/imgs/Figurinos/2019/Noite Verao/2019_SONHO_01.webp",
+				"/imgs/Figurinos/2019/Noite Verao/2019_SONHO_02.webp",
+				"/imgs/Figurinos/2019/Noite Verao/2019_SONHO_03.webp",
+				"/imgs/Figurinos/2019/Noite Verao/2019_SONHO_04.webp",
+				"/imgs/Figurinos/2019/Noite Verao/2019_SONHO_05.webp",
+				"/imgs/Figurinos/2019/Noite Verao/2019_SONHO_06.webp",
+				"/imgs/Figurinos/2019/Noite Verao/2019_SONHO_07.webp",
+				"/imgs/Figurinos/2019/Noite Verao/2019_SONHO_08.webp"
+			]
+		},
+		{
+			"id": 6,
+			"title": "A Filha do Tambor Mor",
+			"year": "2019",
+			"category": "Teatro",
+			"highlights": [
+				"/imgs/Figurinos/2019/Filha do Tambor Mor/2019_FILHA_01.webp",
+				"/imgs/Figurinos/2019/Filha do Tambor Mor/2019_FILHA_02.webp",
+				"/imgs/Figurinos/2019/Filha do Tambor Mor/2019_FILHA_03.webp",
+				"/imgs/Figurinos/2019/Filha do Tambor Mor/2019_FILHA_04.webp",
+				"/imgs/Figurinos/2019/Filha do Tambor Mor/2019_FILHA_05.webp",
+				"/imgs/Figurinos/2019/Filha do Tambor Mor/2019_FILHA_06.webp",
+				"/imgs/Figurinos/2019/Filha do Tambor Mor/2019_FILHA_07.webp",
+				"/imgs/Figurinos/2019/Filha do Tambor Mor/2019_FILHA_08.webp"
+			]
+		},
+		{
+			"id": 7,
+			"title": "The Portuguese",
+			"year": "2018",
+			"category": "Teatro",
+			"highlights": [
+				"/imgs/Figurinos/2018/The Portuguese/2018_PORTUGUESE_01.webp",
+				"/imgs/Figurinos/2018/The Portuguese/2018_PORTUGUESE_02.webp",
+				"/imgs/Figurinos/2018/The Portuguese/2018_PORTUGUESE_03.webp",
+				"/imgs/Figurinos/2018/The Portuguese/2018_PORTUGUESE_04.webp",
+				"/imgs/Figurinos/2018/The Portuguese/2018_PORTUGUESE_05.webp",
+				"/imgs/Figurinos/2018/The Portuguese/2018_PORTUGUESE_06.webp",
+				"/imgs/Figurinos/2018/The Portuguese/2018_PORTUGUESE_07.webp"
+			]
+		},
+		{
+			"id": 8,
+			"title": "Suite 647",
+			"year": "2018",
+			"category": "Teatro",
+			"highlights": [
+				"/imgs/Figurinos/2018/Suite 647/2018_SUITE_01.webp",
+				"/imgs/Figurinos/2018/Suite 647/2018_SUITE_02.webp",
+				"/imgs/Figurinos/2018/Suite 647/2018_SUITE_03.webp",
+				"/imgs/Figurinos/2018/Suite 647/2018_SUITE_04.webp"
+			]
+		},
+		{
+			"id": 9,
+			"title": "Macbeths",
+			"year": "2018",
+			"category": "Teatro",
+			"highlights": [
+				"/imgs/Figurinos/2018/Macbeths/2018_MACBETHS_01.webp",
+				"/imgs/Figurinos/2018/Macbeths/2018_MACBETHS_02.webp",
+				"/imgs/Figurinos/2018/Macbeths/2018_MACBETHS_03.webp",
+				"/imgs/Figurinos/2018/Macbeths/2018_MACBETHS_04.webp"
+			]
+		},
+		{
+			"id": 10,
+			"title": "Simone, O Musical",
+			"year": "2017",
+			"category": "Teatro Musical",
+			"highlights": [
+				"/imgs/Figurinos/2017/Simone/2017_SIMONE_01.webp",
+				"/imgs/Figurinos/2017/Simone/2017_SIMONE_02.webp",
+				"/imgs/Figurinos/2017/Simone/2017_SIMONE_03.webp",
+				"/imgs/Figurinos/2017/Simone/2017_SIMONE_04.webp",
+				"/imgs/Figurinos/2017/Simone/2017_SIMONE_05.webp",
+				"/imgs/Figurinos/2017/Simone/2017_SIMONE_06.webp",
+				"/imgs/Figurinos/2017/Simone/2017_SIMONE_07.webp",
+				"/imgs/Figurinos/2017/Simone/2017_SIMONE_08.webp",
+				"/imgs/Figurinos/2017/Simone/2017_SIMONE_09.webp"
+			]
+		},
+		{
+			"id": 11,
+			"title": "Ubu, Rei",
+			"year": "2017",
+			"category": "Teatro",
+			"highlights": [
+				"/imgs/Figurinos/2017/Ubu/2017_UBU_01.webp",
+				"/imgs/Figurinos/2017/Ubu/2017_UBU_02.webp",
+				"/imgs/Figurinos/2017/Ubu/2017_UBU_03.webp",
+				"/imgs/Figurinos/2017/Ubu/2017_UBU_04.webp",
+				"/imgs/Figurinos/2017/Ubu/2017_UBU_05.webp",
+				"/imgs/Figurinos/2017/Ubu/2017_UBU_06.webp",
+				"/imgs/Figurinos/2017/Ubu/2017_UBU_07.webp",
+				"/imgs/Figurinos/2017/Ubu/2017_UBU_08.webp",
+				"/imgs/Figurinos/2017/Ubu/2017_UBU_09.webp"
+			]
+		},
+		{
+			"id": 12,
+			"title": "Toda a Cidade Ardia",
+			"year": "2017",
+			"category": "Teatro",
+			"highlights": [
+				"/imgs/Figurinos/2017/Toda Cidade/2017_CIDADE_01.webp",
+				"/imgs/Figurinos/2017/Toda Cidade/2017_CIDADE_02.webp",
+				"/imgs/Figurinos/2017/Toda Cidade/2017_CIDADE_03.webp",
+				"/imgs/Figurinos/2017/Toda Cidade/2017_CIDADE_04.webp"
 			]
 		}
 	]

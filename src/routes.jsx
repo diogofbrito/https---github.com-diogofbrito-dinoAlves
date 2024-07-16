@@ -1,13 +1,13 @@
 import { createBrowserRouter } from 'react-router-dom';
 import App from './App';
-import { Home } from './pages/Home/index';
+import { Home } from './pages/Home';
 import { Sobre } from './pages/Sobre/index';
-import { ColecoesLista } from './pages/Colecoes/ColecoesLista/index';
+import { Colecoes } from './pages/Colecoes';
 import { ErrorPage } from './pages/ErrorPage/index';
-import { Figur } from './pages/Figurinos/index';
+import { Figurinos } from './pages/Figurinos';
 import { Styling } from './pages/Styling';
-import { ColecaoItem } from './pages/Colecoes/ColecaoItem/index';
-import { HospitaldaRoupa } from './pages/HospitalRoupa/index';
+import { Colecao } from './pages/Colecao';
+import { HospitalRoupa } from './pages/HospitalRoupa.jsx';
 
 export const router = createBrowserRouter([
 	{
@@ -19,28 +19,28 @@ export const router = createBrowserRouter([
 				element: <Home />,
 			},
 			{
-				path: '/Sobre',
+				path: '/sobre',
 				element: <Sobre />,
 			},
 			{
-				path: '/Colecoes',
-				element: <ColecoesLista />,
+				path: '/colecoes',
+				element: <Colecoes />,
 			},
 			{
-				path: '/Colecoes/:path',
-				element: <ColecaoItem />,
+				path: '/colecoes/:path',
+				element: <Colecao />,
 			},
 			{
-				path: '/Figurinos',
-				element: <Figur />,
+				path: '/figurinos',
+				element: <Figurinos />,
 			},
 			{
-				path: '/Styling',
+				path: '/styling',
 				element: <Styling />,
 			},
 			{
-				path: '/HospitalDaRoupa',
-				element: <HospitaldaRoupa />,
+				path: '/hospitalRoupa',
+				element: <HospitalRoupa />,
 			},
 			{
 				path: '*',

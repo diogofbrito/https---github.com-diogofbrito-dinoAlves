@@ -58,10 +58,9 @@ export function Sobre() {
 
 	return (
 		<>
-			<div id='gradient' className='gradient'></div>
-
-			<section className='about'>
-				<div className='container'>
+{/* 			<div id='gradient' className='gradient'></div>
+ */}
+				<div className='container-default'>
 					<div className='about__wrapper'>
 						<div className='flex__item'>
 							<h1>A marca</h1>
@@ -137,7 +136,6 @@ export function Sobre() {
 						</div>
 					</div>
 				</div>
-			</section>
 		</>
 	);
 }

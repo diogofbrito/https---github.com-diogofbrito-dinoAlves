@@ -13,12 +13,12 @@ export function Colecoes() {
 		<>
 			<Helmet>
 				<title>DINO ALVES | COLECOES </title>
-				<meta name='description' content='Figurinos' />
+				<meta name='description' content='As coleções mais recentes.' />
 			</Helmet>
 			<div className='container-default '>
 				<div className='flex flex-col gap-16'>
 					{colecoes.map(colecao => (
-						<Link to={`/colecoes/${colecao.path}`} key={colecao.path}>
+						<Link to={`/colecoes/${colecao.id}`} key={colecao.id}>
 							<div className='w-full'>
 								<div className='flex flex-row justify-between hover:bg-black hover:blur-md'>
 									<h1>{colecao.title}</h1>

@@ -27,51 +27,56 @@ export function Menu() {
 				<div className='flex flex-col items-center text-center fixed top-0 left-0 right-0 bottom-0 overflow-hidden uppercase bg-white bg-opacity-50 backdrop-blur-2xl'>
 					<div className='p-8'>DINO ALVES</div>
 					<div className='relative w-full flex h-full text-center items-center overflow-y-auto'>
-						<ul className='flex-grow'>
-							<li>
-								<NavLink to='/' onClick={handleNavLinkClick} className='text-8xl hover:bg-black hover:blur-xl'>
+						<ul className='flex-grow '>
+							<li className='mb-3'>
+								<NavLink to='/' onClick={handleNavLinkClick} className='text-5xl hover:bg-black hover:blur-lg'>
 									Home
 								</NavLink>
 							</li>
-							<li>
-								<NavLink to='/sobre' onClick={handleNavLinkClick} className='text-8xl hover:bg-black hover:blur-xl'>
+							<li className='mb-3'>
+								<NavLink to='/sobre' onClick={handleNavLinkClick} className='text-5xl hover:bg-black hover:blur-lg'>
 									Sobre
 								</NavLink>
 							</li>
-							<li>
-								<NavLink to='/colecoes' onClick={handleNavLinkClick} className='text-8xl hover:bg-black hover:blur-xl'>
+							<li className='mb-3'>
+								<NavLink to='/colecoes' onClick={handleNavLinkClick} className='text-5xl hover:bg-black hover:blur-lg'>
 									Coleções
 								</NavLink>
 							</li>
-							<li>
-								<NavLink to='/figurinos' onClick={handleNavLinkClick} className='text-8xl hover:bg-black hover:blur-xl'>
+							<li className='mb-3'>
+								<NavLink to='/figurinos' onClick={handleNavLinkClick} className='text-5xl hover:bg-black hover:blur-lg'>
 									Figurinos
 								</NavLink>
 							</li>
-							<li>
-								<NavLink to='/styling' onClick={handleNavLinkClick} className='text-8xl hover:bg-black hover:blur-xl'>
+							<li className='mb-3'>
+								<NavLink to='/styling' onClick={handleNavLinkClick} className='text-5xl hover:bg-black hover:blur-lg'>
 									Styling
 								</NavLink>
 							</li>
-							<li>
-								<NavLink to='/hospitalRoupa' onClick={handleNavLinkClick} className='text-8xl hover:bg-black hover:blur-xl'>
+							<li className='mb-3'>
+								<NavLink to='/styling' onClick={handleNavLinkClick} className='text-5xl hover:bg-black hover:blur-lg'>
+									Projetos Especiais
+								</NavLink>
+							</li>
+							<li className='mb-3'>
+								<NavLink to='/hospitalRoupa' onClick={handleNavLinkClick} className='text-5xl hover:bg-black hover:blur-lg'>
 									Hospital da Roupa
 								</NavLink>
 							</li>
-							<li>
-								<NavLink to='/press' onClick={handleNavLinkClick} className='text-8xl hover:bg-black hover:blur-xl'>
+							<li className='mb-3'>
+								<NavLink to='/press' onClick={handleNavLinkClick} className='text-5xl hover:bg-black hover:blur-lg'>
 									Press
 								</NavLink>
 							</li>
 							<li>
-								<NavLink to='/contato' onClick={handleNavLinkClick} className='text-8xl hover:bg-black hover:blur-xl'>
+								<NavLink to='/contato' onClick={handleNavLinkClick} className='text-5xl hover:bg-black hover:blur-lg'>
 									Contacto
 								</NavLink>
 							</li>
 						</ul>
 					</div>
 					<div className='p-8'>
-						<button onClick={toggleMenu} className='blur-0 uppercase hover:bg-black hover:blur-md '>
+						<button onClick={toggleMenu} className='blur-0 uppercase hover:bg-black hover:blur-lg '>
 							Fechar
 						</button>
 					</div>

@@ -6,12 +6,12 @@ import { Helmet } from 'react-helmet-async';
 
 
 export function Colecao() {
-	const { path } = useParams();
+	const { id } = useParams();
 	const { colecoes } = useContext(AppContext);
 	const [visible, setVisible] = useState(false);
 	const wpSecondRef = useRef(null);
 
-	const colec = colecoes.find(p => p.path.toString() === path);
+    const colec = colecoes.find(colec => colec.id.toString().toUpperCase() === id.toUpperCase());
 
 	useEffect(() => {
 		if (colec) {
@@ -28,14 +28,14 @@ export function Colecao() {
 		if (wpSecondRef.current) {
 			wpSecondRef.current.scrollIntoView({ behavior: 'smooth' });
 		}
-	}, [path]);
+	}, [id]);
 
 	if (!colec) return <div>Desfile não encontrado.</div>;
 
 	return (
 		<>
 			<Helmet>
-				<title>DINO ALVES | {colec.path} </title>
+				<title>DINO ALVES | {colec.id} </title>
 				<meta name='description' content='Todas as Coleções mais recentes' />
 			</Helmet>
 			<div className='flex flex-col w-full h-screen' ref={wpSecondRef}>
@@ -81,7 +81,7 @@ export function Colecao() {
 				</div>
 			</div>
 
-			<BtnsPrevNext currentColectionPath={path} colecoes={colecoes} />
+			<BtnsPrevNext currentColectionId={id} colecoes={colecoes} />
 		</>
 	);
 }

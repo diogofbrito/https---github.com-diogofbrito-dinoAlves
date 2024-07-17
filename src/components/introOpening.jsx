@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 
-export function IntroPage() {
+export function IntroOpening() {
 	const comp = useRef(null);
 
 	useEffect(() => {

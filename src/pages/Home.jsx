@@ -1,9 +1,9 @@
 import React from 'react';
-import { IntroPage } from '../components/introPage';
+import { IntroOpening } from '../components/introOpening';
 export function Home() {
 	return (
 		<>
-			<IntroPage />
+			<IntroOpening />
 
 			<div className=' w-screen h-screen absolute -z-10'>
 				<div className='flex w-full h-full justify-center items-center' id='home__active'>

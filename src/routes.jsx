@@ -27,7 +27,7 @@ export const router = createBrowserRouter([
 				element: <Colecoes />,
 			},
 			{
-				path: '/colecoes/:path',
+				path: '/colecoes/:id',
 				element: <Colecao />,
 			},
 			{

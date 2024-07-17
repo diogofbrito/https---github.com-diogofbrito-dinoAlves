@@ -1,12 +1,14 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { AppContext } from '../contexts/AppContext';
 import { ScrollShadow } from '@nextui-org/react';
 import { NavLink, useLocation } from 'react-router-dom';
+
 export function YearsBar() {
 	const { figurinos, styling } = useContext(AppContext);
 	const location = useLocation();
 	const isFigurinosPage = location.pathname.startsWith('/figurinos');
 	const isStylingPage = location.pathname.startsWith('/styling');
+	
 
 	const getUniqueSortedYears = data => {
 		const years = Array.from(new Set(data.map(item => item.year)));
@@ -21,6 +23,7 @@ export function YearsBar() {
 	} else if (isStylingPage) {
 		years = getUniqueSortedYears(styling);
 	}
+
 
 	return (
 		<div>
@@ -39,6 +42,7 @@ export function YearsBar() {
 					</div>
 				</div>
 			)}
+
 		</div>
 	);
 }

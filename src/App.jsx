@@ -6,18 +6,14 @@ import { AppProvider } from './contexts/AppContext';
 import { NextUIProvider } from '@nextui-org/react';
 
 function App() {
-
-
 	return (
-		
-			<NextUIProvider>
+		<NextUIProvider>
 			<AppProvider>
-					<Menu />
-					<YearsBar />
-					<Outlet />
-				</AppProvider>
-			</NextUIProvider>
-		
+				<Menu />
+				<YearsBar />
+				<Outlet />
+			</AppProvider>
+		</NextUIProvider>
 	);
 }
 

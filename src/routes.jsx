@@ -2,8 +2,9 @@ import { createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import { Home } from './pages/Home';
 import { Sobre } from './pages/Sobre.jsx';
-import { Colecoes } from './pages/Colecoes';
-import { ErrorPage } from './pages/ErrorPage/index';
+import { Colecoes } from './pages/Colecoes.jsx';
+import { Contactos } from './pages/Contactos.jsx';
+import { ErrorPage } from './pages/ErrorPage.jsx';
 import { Figurinos } from './pages/Figurinos.jsx';
 import { Styling } from './pages/Styling.jsx';
 import { Colecao } from './pages/Colecao.jsx';
@@ -41,6 +42,10 @@ export const router = createBrowserRouter([
 			{
 				path: '/hospitalRoupa',
 				element: <HospitalRoupa />,
+			},
+			{
+				path: '/contactos',
+				element: <Contactos />,
 			},
 			{
 				path: '*',

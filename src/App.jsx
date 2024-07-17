@@ -9,6 +9,7 @@ function App() {
 	return (
 		<NextUIProvider>
 			<AppProvider>
+				
 				<Menu />
 				<YearsBar />
 				<Outlet />

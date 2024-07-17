@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './style.css';
 
 export function ErrorPage() {
 	const navigate = useNavigate();
@@ -20,14 +19,12 @@ export function ErrorPage() {
 	}, [countdown, navigate]);
 
 	return (
-		<div className='error'>
-			<div className='container'>
-				<h2>
-					Página não encontrada.
-					<br />
-					Página inicial em {countdown} segundos ...
-				</h2>
-			</div>
+		<div className='px-40 flex justify-center items-center fixed top-0 left-0 right-0 bottom-0  '>
+			<h2>
+				Página não encontrada.
+				<br />
+				Página inicial em {countdown} segundos ...
+			</h2>
 		</div>
 	);
 }

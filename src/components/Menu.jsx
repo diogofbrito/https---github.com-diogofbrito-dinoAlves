@@ -69,8 +69,8 @@ export function Menu() {
 								</NavLink>
 							</li>
 							<li>
-								<NavLink to='/contato' onClick={handleNavLinkClick} className='text-5xl hover:bg-black hover:blur-lg'>
-									Contacto
+								<NavLink to='/contactos' onClick={handleNavLinkClick} className='text-5xl hover:bg-black hover:blur-lg'>
+									Contactos
 								</NavLink>
 							</li>
 						</ul>

@@ -4,14 +4,13 @@ import { BtnsPrevNext } from '../components/BtnsPrevNext.jsx';
 import { AppContext } from '../contexts/AppContext.jsx';
 import { Helmet } from 'react-helmet-async';
 
-
 export function Colecao() {
 	const { id } = useParams();
 	const { colecoes } = useContext(AppContext);
 	const [visible, setVisible] = useState(false);
 	const wpSecondRef = useRef(null);
 
-    const colec = colecoes.find(colec => colec.id.toString().toUpperCase() === id.toUpperCase());
+	const colec = colecoes.find(colec => colec.id.toString().toUpperCase() === id.toUpperCase());
 
 	useEffect(() => {
 		if (colec) {
@@ -39,10 +38,19 @@ export function Colecao() {
 				<meta name='description' content='Todas as Coleções mais recentes' />
 			</Helmet>
 			<div className='flex flex-col w-full h-screen' ref={wpSecondRef}>
-				<video autoPlay loop muted className='absolute left-0 top-0 bottom-0 right-0 w-full h-screen object-cover -z-10'>
-					<source src={colec.videoUrl} type='video/mp4' />
-					Seu navegador não suporta o vídeo.
-				</video>
+				<div className='absolute left-0 top-0 bottom-0 right-0 w-screen h-screen object-cover -z-10 bg-slate-500'>
+					<iframe
+						className='w-screen h-screen p-0 m-0 bg-slate-500 overflow-hidden z-50'
+						src={`https://player.vimeo.com/video/${colec.videoUrl}?autoplay=0&loop=1&muted=1&controls=1`}
+						width='100%'
+						height='100%'
+						loading='lazy'
+						frameborder='0'
+						allow='fullscreen; picture-in-picture;  '
+						allowfullscreen=''
+					></iframe>
+				</div>
+
 				<div className={`w-full h-full flex items-center justify-center text-center  transition-opacity duration-1000 ${visible ? 'opacity-100' : 'opacity-0'}`}>
 					<h1 className='text-white'>
 						{colec.title} <br />

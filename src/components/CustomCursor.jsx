@@ -32,8 +32,11 @@ export function CustomCursor  ({ logoSrc })  {
 	}, [isHovering]);
 
 	return (
-		<div className={`fixed pointer-events-none transform  mix-blend-multiply translate-x-2/4 translate-y-1/2  ${isHovering ? 'block' : 'hidden'}`} ref={cursorRef}>
-			<img src={logoSrc} alt='Logo' className='w-1/2 ' />
+		<div
+			className={`fixed pointer-events-none transform mix-blend-multiply translate-x-2/4 translate-y-1/2 transition-opacity duration-500 ease-in-out ${isHovering ? 'opacity-100' : 'opacity-0'}`}
+			ref={cursorRef}
+		>
+			<img src={logoSrc} alt='Logo' className='w-1/2' />
 		</div>
 	);
 };

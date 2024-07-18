@@ -1,14 +1,12 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { AppContext } from '../contexts/AppContext';
-import { ScrollShadow } from '@nextui-org/react';
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useLocation, useParams } from 'react-router-dom';
 
-export function YearsBar() {
-	const { figurinos, styling } = useContext(AppContext);
+export function YearsBar({ type }) {
+	const { figurinos, styling, dispatch, selectedYear } = useContext(AppContext);
 	const location = useLocation();
-	const isFigurinosPage = location.pathname.startsWith('/figurinos');
-	const isStylingPage = location.pathname.startsWith('/styling');
-	
+	const { year } = useParams();
+	const isCurrentPage = location.pathname.startsWith(`/${type}`);
 
 	const getUniqueSortedYears = data => {
 		const years = Array.from(new Set(data.map(item => item.year)));
@@ -17,32 +15,41 @@ export function YearsBar() {
 	};
 
 	let years = [];
+	let latestYear = null;
 
-	if (isFigurinosPage) {
-		years = getUniqueSortedYears(figurinos);
-	} else if (isStylingPage) {
-		years = getUniqueSortedYears(styling);
+	if (isCurrentPage) {
+		years = getUniqueSortedYears(type === 'figurinos' ? figurinos : styling);
+		latestYear = years[0]; 
+
+		if (!selectedYear) {
+			dispatch({ type: 'SET_SELECTED_YEAR', payload: latestYear });
+		}
 	}
 
+	const handleYearClick = year => {
+		dispatch({ type: 'SET_SELECTED_YEAR', payload: year });
+	};
 
 	return (
 		<div>
-			{(isFigurinosPage || isStylingPage) && (
+			{isCurrentPage && (
 				<div className='pt-8'>
 					<div className='px-40'>
-						<ScrollShadow hideScrollBar onVisibilityChange='left' offset={0} orientation='horizontal' className='max-w-[100%] '>
 							<div className='flex flex-row gap-14 justify-center text-5xl tracking-[-0.15rem]'>
 								{years.map(year => (
-									<NavLink key={year} to={`/${isFigurinosPage ? 'figurinos' : 'styling'}/${year}`}>
+									<NavLink
+										key={year}
+										to={`/${type}/${year}`}
+										onClick={() => handleYearClick(year)}
+										className={({ isActive }) => (isActive || year === selectedYear ? ' hover:bg-black hover:blur-md' : 'hover:bg-black hover:blur-md blur-custom')}
+									>
 										{year}
 									</NavLink>
 								))}
 							</div>
-						</ScrollShadow>
 					</div>
 				</div>
 			)}
-
 		</div>
 	);
 }

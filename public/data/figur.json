@@ -3,6 +3,7 @@
 		{
 			"id": 1,
 			"title": "Muito Barulho por Nada",
+			"path": "Barulho",
 			"year": "2022",
 			"category": "Teatro",
 			"highlights": [
@@ -19,6 +20,7 @@
 		{
 			"id": 2,
 			"title": "Jardim das Cerejeiras",
+			"path": "Jardim",
 			"year": "2021",
 			"category": "Teatro",
 			"highlights": [
@@ -35,6 +37,7 @@
 		{
 			"id": 3,
 			"title": "Ricardo III",
+			"path": "Ricardo",
 			"year": "2020",
 			"category": "Teatro",
 			"highlights": [
@@ -51,6 +54,7 @@
 		{
 			"id": 4,
 			"title": "Ascenção de Arturo UI",
+			"path": "Ascencao",
 			"year": "2020",
 			"category": "Teatro",
 			"highlights": [
@@ -67,6 +71,7 @@
 		{
 			"id": 5,
 			"title": "Sonho de Uma Noite de Verão",
+			"path": "Sonho",
 			"year": "2019",
 			"category": "Teatro",
 			"highlights": [
@@ -83,6 +88,7 @@
 		{
 			"id": 6,
 			"title": "A Filha do Tambor Mor",
+			"path": "Tambor",
 			"year": "2019",
 			"category": "Teatro",
 			"highlights": [
@@ -99,6 +105,7 @@
 		{
 			"id": 7,
 			"title": "The Portuguese",
+			"path": "Portuguese",
 			"year": "2018",
 			"category": "Teatro",
 			"highlights": [
@@ -114,6 +121,7 @@
 		{
 			"id": 8,
 			"title": "Suite 647",
+			"path": "Suite",
 			"year": "2018",
 			"category": "Teatro",
 			"highlights": [
@@ -126,6 +134,7 @@
 		{
 			"id": 9,
 			"title": "Macbeths",
+			"path": "Macbeths",
 			"year": "2018",
 			"category": "Teatro",
 			"highlights": [

@@ -31,10 +31,16 @@ export const router = createBrowserRouter([
 				path: '/colecoes/:id',
 				element: <Colecao />,
 			},
+
 			{
 				path: '/figurinos',
 				element: <Figurinos />,
 			},
+			{
+				path: '/figurinos/:year',
+				element: <Figurinos />,
+			},
+
 			{
 				path: '/styling',
 				element: <Styling />,

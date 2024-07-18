@@ -8,6 +8,8 @@ export function reducer(state, action) {
 			return { ...state, colecoes: payload };
 		case 'SET_FIGURINOS':
 			return { ...state, figurinos: payload };
+		case 'SET_SELECTED_YEAR':
+			return { ...state, selectedYear: payload };
 		default:
 			return state;
 	}

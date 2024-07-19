@@ -4,19 +4,31 @@
 			"id": 1,
 			"title": "Lux Frágil NYE 22-23",
 			"year": "2022",
-			"highlights": ["../../src/assets/images/Styling/2022/STYL_2022_01.jpg", "../../src/assets/images/Styling/2022/STYL_2022_02.jpg", "../../src/assets/images/Styling/2022/STYL_2022_03.jpg"]
+			"highlights": [
+				"/imgs/Styling/2022/Lux/STYL2022_LUX_01.webp",
+				"/imgs/Styling/2022/Lux/STYL2022_LUX_02.webp",
+				"/imgs/Styling/2022/Lux/STYL2022_LUX_03.webp",
+				"/imgs/Styling/2022/Lux/STYL2022_LUX_04.webp",
+				"/imgs/Styling/2022/Lux/STYL2022_LUX_05.webp",
+				"/imgs/Styling/2022/Lux/STYL2022_LUX_06.webp",
+				"/imgs/Styling/2022/Lux/STYL2022_LUX_07.webp",
+				"/imgs/Styling/2022/Lux/STYL2022_LUX_08.webp",
+				"/imgs/Styling/2022/Lux/STYL2022_LUX_09.webp",
+				"/imgs/Styling/2022/Lux/STYL2022_LUX_10.webp"
+			]
 		},
 		{
 			"id": 2,
 			"title": "Karacter Model Tour",
 			"year": "2021",
 			"highlights": [
-				"../../src/assets/transforma/DA_2324_1.jpg",
-				"../../src/assets/transforma/DA_2324_2.jpg",
-				"../../src/assets/transforma/DA_2324_3.jpg",
-				"../../src/assets/transforma/DA_2324_4.jpg",
-				"../../src/assets/transforma/DA_2324_5.jpg",
-				"../../src/assets/transforma/DA_2324_6.jpg"
+				"/imgs/Styling/2021/Karacter/STYL2021_KARACTER_01.webp",
+				"/imgs/Styling/2021/Karacter/STYL2021_KARACTER_02.webp",
+				"/imgs/Styling/2021/Karacter/STYL2021_KARACTER_03.webp",
+				"/imgs/Styling/2021/Karacter/STYL2021_KARACTER_04.webp",
+				"/imgs/Styling/2021/Karacter/STYL2021_KARACTER_05.webp",
+				"/imgs/Styling/2021/Karacter/STYL2021_KARACTER_06.webp",
+				"/imgs/Styling/2021/Karacter/STYL2021_KARACTER_07.webp"
 			]
 		},
 		{
@@ -24,30 +36,34 @@
 			"title": "The Gift - Coral",
 			"year": "2021",
 			"highlights": [
-				"../../src/assets/pop/DA_23_1.jpg",
-				"../../src/assets/pop/DA_23_2.jpg",
-				"../../src/assets/pop/DA_23_3.jpg",
-				"../../src/assets/pop/DA_23_4.jpg",
-				"../../src/assets/pop/DA_23_5.jpg",
-				"../../src/assets/pop/DA_23_6.jpg"
+				"/imgs/Styling/2021/The Gift/STYL2021_GIFT_01.webp",
+				"/imgs/Styling/2021/The Gift/STYL2021_GIFT_02.webp",
+				"/imgs/Styling/2021/The Gift/STYL2021_GIFT_03.webp",
+				"/imgs/Styling/2021/The Gift/STYL2021_GIFT_04.webp",
+				"/imgs/Styling/2021/The Gift/STYL2021_GIFT_05.webp",
+				"/imgs/Styling/2021/The Gift/STYL2021_GIFT_06.webp"
 			]
 		},
 		{
 			"id": 4,
-			"title": "Revista Fora de Série V",
+			"title": "Revista Fora de Série - ED. JUNHO",
 			"year": "2013",
 			"highlights": [
-				"../../src/assets/pop/DA_23_1.jpg",
-				"../../src/assets/pop/DA_23_2.jpg",
-				"../../src/assets/pop/DA_23_3.jpg",
-				"../../src/assets/pop/DA_23_4.jpg",
-				"../../src/assets/pop/DA_23_5.jpg",
-				"../../src/assets/pop/DA_23_6.jpg"
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_08.webp",
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_01.webp",
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_02.webp",
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_03.webp",
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_04.webp",
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_05.webp",
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_06.webp",
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_07.webp",
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_09.webp",
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_10.webp"
 			]
 		},
 		{
 			"id": 5,
-			"title": "Revista Fora de Série IV",
+			"title": "Revista Fora de Série  - ED. MAIO",
 			"year": "2013",
 			"highlights": [
 				"../../src/assets/pop/DA_23_1.jpg",

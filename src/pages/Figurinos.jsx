@@ -24,7 +24,7 @@ export function Figurinos() {
 		<>
 			<Helmet>
 				<title>DINO ALVES | FIGURINOS</title>
-				<meta name='description' content='Figurinos do Dino Alves' />
+				<meta name='description' content='Projetos de Figurinos de Dino Alves' />
 			</Helmet>
 			<div className='container-default'>
 				<div className='flex flex-col gap-16'>

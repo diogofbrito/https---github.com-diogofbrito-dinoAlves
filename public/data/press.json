@@ -1,0 +1,158 @@
+{
+	"press": [
+		{
+			"id": 22,
+			"title": "Vogue Portugal",
+			"year": "2020",
+			"highlight": "/imgs/Press/2020/Vogue/PRESS2020_VOGUE.webp",
+			"highlightHQ": "/imgs/Press/2020/Vogue/PRESS2020_VOGUE_HQ.webp"
+		},
+		{
+			"id": 21,
+			"title": "Vogue Portugal",
+			"year": "2018",
+			"highlight": "/imgs/Press/2018/Vogue/PRESS2018_VOGUE.webp",
+			"highlightHQ": "/imgs/Press/2018/Vogue/PRESS2018_VOGUE_HQ.webp"
+		},
+		{
+			"id": 20,
+			"title": "Vogue Portugal",
+			"year": "2017",
+			"highlight": "/imgs/Press/2017/Vogue/PRESS2017_VOGUE.webp",
+			"highlightHQ": "/imgs/Press/2017/Vogue/PRESS2017_VOGUE_HQ.webp"
+		},
+		{
+			"id": 19,
+			"title": "Jornal Têxtil",
+			"year": "2017",
+			"highlight": "/imgs/Press/2017/Jornal Textil/PRESS2017_TEXTIL.webp",
+			"highlightHQ": "/imgs/Press/2017/Jornal Textil/PRESS2017_TEXTIL.webp"
+		},
+		{
+			"id": 18,
+			"title": "Caras",
+			"year": "2017",
+			"highlight": "/imgs/Press/2017/Caras/PRESS2017_CARAS.webp",
+			"highlightHQ": "/imgs/Press/2017/Caras/PRESS2017_CARAS_HQ.webp"
+		},
+		{
+			"id": 17,
+			"title": "Máxima",
+			"year": "2015",
+			"highlight": "/imgs/Press/2015/Maxima/PRESS2015_MAXIMA.webp",
+			"highlightHQ": "/imgs/Press/2015/Maxima/PRESS2015_MAXIMA_HQ.webp"
+		},
+		{
+			"id": 16,
+			"title": "Podium",
+			"year": "2015",
+			"highlight": "/imgs/Press/2015/Podium/PRESS2015_PODIUM.webp",
+			"highlightHQ": "/imgs/Press/2015/Podium/PRESS2015_PODIUM.webp"
+		},
+		{
+			"id": 15,
+			"title": "Vogue Itália",
+			"year": "2012",
+			"highlight": "/imgs/Press/2012/Vogue Italia/PRESS2012_VOGUEIT.webp",
+			"highlightHQ": "/imgs/Press/2012/Vogue Italia/PRESS2012_VOGUEIT_HQ.webp"
+		},
+		{
+			"id": 14,
+			"title": "Visão - Lisboa&Sul",
+			"year": "2012",
+			"highlight": "/imgs/Press/2012/Visao/PRESS2012_VISAO.webp",
+			"highlightHQ": "/imgs/Press/2012/Visao/PRESS2012_VISAO_HQ.webp"
+		},
+		{
+			"id": 13,
+			"title": "Moda&Styl",
+			"year": "2012",
+			"highlight": "/imgs/Press/2012/ModaStyl/PRESS2012_STYL.webp",
+			"highlightHQ": "/imgs/Press/2012/ModaStyl/PRESS2012_STYL_HQ.webp"
+		},
+		{
+			"id": 12,
+			"title": "Caras",
+			"year": "2011",
+			"highlight": "/imgs/Press/2011/Caras/PRESS2011_CARAS.webp",
+			"highlightHQ": "/imgs/Press/2011/Caras/PRESS2011_CARAS_HQ.webp"
+		},
+		{
+			"id": 11,
+			"title": "Parq",
+			"year": "2011",
+			"highlight": "/imgs/Press/2011/Parq/PRESS2011_PARQ.webp",
+			"highlightHQ": "/imgs/Press/2011/Parq/PRESS2011_PARQ.webp"
+		},
+		{
+			"id": 10,
+			"title": "Vogue Portugal",
+			"year": "2010",
+			"highlight": "/imgs/Press/2010/Vogue Portugal/PRESS2010_VOGUE.webp",
+			"highlightHQ": "/imgs/Press/2010/Vogue Portugal/PRESS2010_VOGUE_HQ.webp"
+		},
+		{
+			"id": 9,
+			"title": "Vogue Portugal",
+			"year": "2010",
+			"highlight": "/imgs/Press/2010/Vogue Portugal/PRESS2010_VOGUE_II.webp",
+			"highlightHQ": "/imgs/Press/2010/Vogue Portugal/PRESS2010_VOGUE_II_HQ.webp"
+		},
+		{
+			"id": 8,
+			"title": "Máxima",
+			"year": "2010",
+			"highlight": "/imgs/Press/2010/Maxima/PRESS2010_MAXIMA.webp",
+			"highlightHQ": "/imgs/Press/2010/Maxima/PRESS2010_MAXIMA_HQ.webp"
+		},
+		{
+			"id": 7,
+			"title": "Elle",
+			"year": "2010",
+			"highlight": "/imgs/Press/2010/Elle/PRESS2010_ELLE.webp",
+			"highlightHQ": "/imgs/Press/2010/Elle/PRESS2010_ELLE_HQ.webp"
+		},
+		{
+			"id": 6,
+			"title": "Zoot",
+			"year": "2010",
+			"highlight": "/imgs/Press/2010/Zoot/PRESS2010_ZOOT.webp",
+			"highlightHQ": "/imgs/Press/2010/Zoot/PRESS2010_ZOOT_HQ.webp"
+		},
+		{
+			"id": 5,
+			"title": "Dicionário da Moda",
+			"year": "2010",
+			"highlight": "/imgs/Press/2010/Dicionario Moda/PRESS2010_DICIONARIO.webp",
+			"highlightHQ": "/imgs/Press/2010/Dicionario Moda/PRESS2010_DICIONARIO_HQ.webp"
+		},
+		{
+			"id": 4,
+			"title": "Caras",
+			"year": "2009",
+			"highlight": "/imgs/Press/2009/Caras/PRESS2009_CARAS.webp",
+			"highlightHQ": "/imgs/Press/2009/Caras/PRESS2009_CARAS_HQ.webp"
+		},
+		{
+			"id": 3,
+			"title": "WAD",
+			"year": "2009",
+			"highlight": "/imgs/Press/2009/WAD/PRESS2009_WAD.webp",
+			"highlightHQ": "/imgs/Press/2009/WAD/PRESS2009_WAD_HQ.webp"
+		},
+		{
+			"id": 2,
+			"title": "Elle",
+			"year": "2005",
+			"highlight": "/imgs/Press/2005/Elle/PRESS2005_ELLE.webp",
+			"highlightHQ": "/imgs/Press/2005/Elle/PRESS2005_ELLE_HQ.webp"
+		},
+		{
+			"id": 1,
+			"title": "Expresso - Única",
+			"year": "2003",
+			"highlight": "/imgs/Press/2003/Unica/PRESS2003_UNICA.webp",
+			"highlightHQ": "/imgs/Press/2003/Unica/PRESS2003_UNICA_HQ.webp"
+		}
+	]
+}

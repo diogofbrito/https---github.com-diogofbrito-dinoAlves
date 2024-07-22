@@ -14,14 +14,22 @@ export async function fetchData(endpoint) {
 	}
 }
 
-export async function getColec() {
-	return await fetchData('colec');
+export async function getColecoes() {
+	return await fetchData('colecoes');
 }
 
-export async function getFigur() {
-	return await fetchData('figur');
+export async function getFigurinos() {
+	return await fetchData('figurinos');
 }
 
 export async function getStyling() {
 	return await fetchData('styling');
+}
+
+export async function getProjetosEspeciais() {
+	return await fetchData('projetosEspeciais');
+}
+
+export async function getPress() {
+	return await fetchData('press');
 }

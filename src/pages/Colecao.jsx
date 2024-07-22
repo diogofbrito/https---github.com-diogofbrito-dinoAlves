@@ -9,6 +9,7 @@ export function Colecao() {
 	const { colecoes } = useContext(AppContext);
 	const [visible, setVisible] = useState(false);
 	const wpSecondRef = useRef(null);
+	
 
 	const colec = colecoes.find(colec => colec.id.toString().toUpperCase() === id.toUpperCase());
 

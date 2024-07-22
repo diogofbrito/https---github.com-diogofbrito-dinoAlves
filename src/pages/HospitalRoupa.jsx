@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
+import PhotoHospital from "../assets/images/sos_logo.webp"
 
 export function HospitalRoupa() {
 	const [scrollTop, setScrollTop] = useState(0);
@@ -40,9 +41,8 @@ export function HospitalRoupa() {
 			</div>
 			<div className='container-default'>
 				<div className='flex flex-col w-full justify-center items-center'>
-					<div className='blury w-4/6'>
-						<img src='../assets/images/sos_logo.webp' alt='Hospital da Roupa Logo' />
-
+					<div className='blury w-4/6 flex flex-col justify-center items-center gap-8'>
+						<img src={PhotoHospital} alt='Hospital da Roupa Logo' className='w-[200px]' />
 						<p>
 							Aqui não se fazem arranjos como numa costureira tradicional. A ideia é outra: recuperar peças antigas, transformando-as em peças novas. Uma saia ou umas calças podem dar origem a um top,
 							ou vice-versa. A partir de um acto criativo, a roupa pode ser radicalmente transformada numa peça diferente. <br></br>A reciclagem de roupa ou a criação por medida já não são novidade.
@@ -53,11 +53,21 @@ export function HospitalRoupa() {
 							SOS significa, neste caso, Serviços Operação Surpresa e é de certa forma uma maneira de fazer nascer uma segunda marca do universo Dino Alves, mais acessível e comercial. Uma colecção
 							infinita, sem estação definida, porque as peças vão sendo criadas conforme a regularidade que os clientes recorrem a este serviço.
 						</p>
-
-						<div className='pt-8'>
+						<div>
 							<h2>Como funciona?</h2>
 							<p className='pt-8'>
-								O primeiro contacto é estabelecido através de telefone, por e-mail, ou ainda através das redes sociais: instagram - Hospital da Roupa ou instagram - Dino Alves.
+								O primeiro contacto é estabelecido através de telefone, por{' '}
+								<a href='mailto:info@dinoalves.eu' className='hover:bg-black hover:blur-md'>
+									<u>e-mail</u>
+								</a>
+								, ou ainda através das redes sociais:{' '}
+								<a href='https://www.instagram.com/hospital_da_roupa/' target='_blank' className='hover:bg-black hover:blur-md'>
+									<u>instagram - Hospital da Roupa</u>
+								</a>{' '}
+								ou{' '}
+								<a href='https://www.instagram.com/dino_alves_eu/' target='_blank' className='hover:bg-black hover:blur-md'>
+									<u>instagram - Dino Alves</u>
+								</a>
 								<br />
 								Um elemento da equipa do Atelier Dino Alves recebe os dados e marca o dia e a hora para a entrega e “internamento” das peças de roupa. Pode ser também tratado por envio CTT ou outra
 								transportadora. O serviço funciona por marcação, uma vez que poderá não haver disponibilidade para um atendimento imediato.

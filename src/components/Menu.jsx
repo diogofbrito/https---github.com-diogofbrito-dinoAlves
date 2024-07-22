@@ -34,7 +34,7 @@ export function Menu() {
 			)}
 			{menuOpen && (
 				<>
-					<div className='fixed inset-0 z-40' onClick={toggleMenu} />
+					<div className='fixed inset-0 z-40 transition-opacity duration-300' onClick={toggleMenu} />
 					<div className='flex flex-col items-center text-center fixed top-0 left-0 right-0 bottom-0 overflow-hidden uppercase bg-white bg-opacity-50 backdrop-blur-2xl z-50'>
 						<div className='p-8'>DINO ALVES</div>
 						<div className='relative w-full flex h-full text-center items-center overflow-y-auto'>
@@ -65,7 +65,7 @@ export function Menu() {
 									</NavLink>
 								</li>
 								<li className='mb-3'>
-									<NavLink to='/styling' onClick={handleNavLinkClick} className='text-5xl hover:bg-black hover:blur-lg'>
+									<NavLink to='/especiais' onClick={handleNavLinkClick} className='text-5xl hover:bg-black hover:blur-lg'>
 										Projetos Especiais
 									</NavLink>
 								</li>

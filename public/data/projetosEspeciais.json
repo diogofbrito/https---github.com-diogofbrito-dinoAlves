@@ -1,0 +1,98 @@
+{
+	"projetosEspeciais": [
+		{
+			"id": 1,
+			"title": "Marcha da Bica",
+			"year": "2022",
+			"highlights": [
+				"/imgs/Especiais/2022/Bica/ESPCL2022_BICA_01.webp",
+				"/imgs/Especiais/2022/Bica/ESPCL2022_BICA_02.webp",
+				"/imgs/Especiais/2022/Bica/ESPCL2022_BICA_03.webp",
+				"/imgs/Especiais/2022/Bica/ESPCL2022_BICA_04.webp",
+				"/imgs/Especiais/2022/Bica/ESPCL2022_BICA_05.webp",
+				"/imgs/Especiais/2022/Bica/ESPCL2022_BICA_06.webp",
+				"/imgs/Especiais/2022/Bica/ESPCL2022_BICA_07.webp",
+				"/imgs/Especiais/2022/Bica/ESPCL2022_BICA_08.webp",
+				"/imgs/Especiais/2022/Bica/ESPCL2022_BICA_09.webp",
+				"/imgs/Especiais/2022/Bica/ESPCL2022_BICA_10.webp",
+				"/imgs/Especiais/2022/Bica/ESPCL2022_BICA_11.webp",
+				"/imgs/Especiais/2022/Bica/ESPCL2022_BICA_12.webp",
+				"/imgs/Especiais/2022/Bica/ESPCL2022_BICA_13.webp",
+				"/imgs/Especiais/2022/Bica/ESPCL2022_BICA_14.webp",
+				"/imgs/Especiais/2022/Bica/ESPCL2022_BICA_15.webp"
+			]
+		},
+		{
+			"id": 2,
+			"title": "Festival da Canção",
+			"year": "2022",
+			"highlights": [
+				"/imgs/Especiais/2022/Festival Cancao/ESPCL2022_CANCAO_01.webp",
+				"/imgs/Especiais/2022/Festival Cancao/ESPCL2022_CANCAO_02.webp",
+				"/imgs/Especiais/2022/Festival Cancao/ESPCL2022_CANCAO_04.webp",
+				"/imgs/Especiais/2022/Festival Cancao/ESPCL2022_CANCAO_05.webp",
+				"/imgs/Especiais/2022/Festival Cancao/ESPCL2022_CANCAO_03.webp"
+		
+			]
+		},
+		{
+			"id": 3,
+			"title": "Festival da Canção",
+			"year": "2021",
+			"highlights": [
+				"/imgs/Especiais/2021/Festival Cancao/ESPCL2021_CANCAO_01.webp",
+				"/imgs/Especiais/2021/Festival Cancao/ESPCL2021_CANCAO_02.webp",
+				"/imgs/Especiais/2021/Festival Cancao/ESPCL2021_CANCAO_03.webp",
+				"/imgs/Especiais/2021/Festival Cancao/ESPCL2021_CANCAO_04.webp"
+	
+			]
+		},
+		{
+			"id": 4,
+			"title": "Revista Fora de Série - ED. JUNHOd",
+			"year": "2013",
+			"highlights": [
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_08.webp",
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_01.webp",
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_02.webp",
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_03.webp",
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_04.webp",
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_05.webp",
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_06.webp",
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_07.webp",
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_09.webp",
+				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_10.webp"
+			]
+		},
+		{
+			"id": 5,
+			"title": "Revista Fora de Série  - ED. MAIOd",
+			"year": "2012",
+			"highlights": [
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_01.webp",
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_02.webp",
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_03.webp",
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_04.webp",
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_05.webp",
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_06.webp",
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_07.webp",
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_08.webp",
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_09.webp",
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_10.webp"
+			]
+		},
+		{
+			"id": 6,
+			"title": "Revista Fora de Séried",
+			"year": "2009",
+			"highlights": [
+				"/imgs/Styling/2009/Fora de Serie/STYL2009_SERIE_01.webp",
+				"/imgs/Styling/2009/Fora de Serie/STYL2009_SERIE_02.webp",
+				"/imgs/Styling/2009/Fora de Serie/STYL2009_SERIE_03.webp",
+				"/imgs/Styling/2009/Fora de Serie/STYL2009_SERIE_04.webp",
+				"/imgs/Styling/2009/Fora de Serie/STYL2009_SERIE_05.webp",
+				"/imgs/Styling/2009/Fora de Serie/STYL2009_SERIE_06.webp"
+			]
+		}
+	]
+}

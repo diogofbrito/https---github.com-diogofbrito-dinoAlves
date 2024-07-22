@@ -9,6 +9,9 @@ import { Figurinos } from './pages/Figurinos.jsx';
 import { Styling } from './pages/Styling.jsx';
 import { Colecao } from './pages/Colecao.jsx';
 import { HospitalRoupa } from './pages/HospitalRoupa.jsx';
+import { ProjetosEspeciais } from './pages/ProjetosEspeciais';
+import { Press } from './pages/Press';
+
 
 export const router = createBrowserRouter([
 	{
@@ -31,7 +34,6 @@ export const router = createBrowserRouter([
 				path: '/colecoes/:id',
 				element: <Colecao />,
 			},
-
 			{
 				path: '/figurinos',
 				element: <Figurinos />,
@@ -40,14 +42,21 @@ export const router = createBrowserRouter([
 				path: '/figurinos/:year',
 				element: <Figurinos />,
 			},
-
 			{
 				path: '/styling',
 				element: <Styling />,
 			},
 			{
+				path: '/especiais',
+				element: <ProjetosEspeciais />,
+			},
+			{
 				path: '/hospitalRoupa',
 				element: <HospitalRoupa />,
+			},
+			{
+				path: '/press',
+				element: <Press />,
 			},
 			{
 				path: '/contactos',

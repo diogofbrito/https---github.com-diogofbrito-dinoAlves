@@ -64,53 +64,31 @@
 		{
 			"id": 5,
 			"title": "Revista Fora de Série  - ED. MAIO",
-			"year": "2013",
+			"year": "2012",
 			"highlights": [
-				"../../src/assets/pop/DA_23_1.jpg",
-				"../../src/assets/pop/DA_23_2.jpg",
-				"../../src/assets/pop/DA_23_3.jpg",
-				"../../src/assets/pop/DA_23_4.jpg",
-				"../../src/assets/pop/DA_23_5.jpg",
-				"../../src/assets/pop/DA_23_6.jpg"
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_01.webp",
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_02.webp",
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_03.webp",
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_04.webp",
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_05.webp",
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_06.webp",
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_07.webp",
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_08.webp",
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_09.webp",
+				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_10.webp"
 			]
 		},
 		{
 			"id": 6,
-			"title": "Revista Fora de Série III",
-			"year": "2010",
-			"highlights": [
-				"../../src/assets/pop/DA_23_1.jpg",
-				"../../src/assets/pop/DA_23_2.jpg",
-				"../../src/assets/pop/DA_23_3.jpg",
-				"../../src/assets/pop/DA_23_4.jpg",
-				"../../src/assets/pop/DA_23_5.jpg",
-				"../../src/assets/pop/DA_23_6.jpg"
-			]
-		},
-		{
-			"id": 7,
-			"title": "Revista Fora de Série II",
+			"title": "Revista Fora de Série",
 			"year": "2009",
 			"highlights": [
-				"../../src/assets/pop/DA_23_1.jpg",
-				"../../src/assets/pop/DA_23_2.jpg",
-				"../../src/assets/pop/DA_23_3.jpg",
-				"../../src/assets/pop/DA_23_4.jpg",
-				"../../src/assets/pop/DA_23_5.jpg",
-				"../../src/assets/pop/DA_23_6.jpg"
-			]
-		},
-		{
-			"id": 8,
-			"title": "Revista Fora de Série I",
-			"year": "2007",
-			"highlights": [
-				"../../src/assets/pop/DA_23_1.jpg",
-				"../../src/assets/pop/DA_23_2.jpg",
-				"../../src/assets/pop/DA_23_3.jpg",
-				"../../src/assets/pop/DA_23_4.jpg",
-				"../../src/assets/pop/DA_23_5.jpg",
-				"../../src/assets/pop/DA_23_6.jpg"
+				"/imgs/Styling/2009/Fora de Serie/STYL2009_SERIE_01.webp",
+				"/imgs/Styling/2009/Fora de Serie/STYL2009_SERIE_02.webp",
+				"/imgs/Styling/2009/Fora de Serie/STYL2009_SERIE_03.webp",
+				"/imgs/Styling/2009/Fora de Serie/STYL2009_SERIE_04.webp",
+				"/imgs/Styling/2009/Fora de Serie/STYL2009_SERIE_05.webp",
+				"/imgs/Styling/2009/Fora de Serie/STYL2009_SERIE_06.webp"
 			]
 		}
 	]

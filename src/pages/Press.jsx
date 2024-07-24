@@ -31,7 +31,7 @@ export function Press() {
 			<Masonry breakpointCols={breakpointColumnsObj} className='flex gap-8' columnClassName='pb-8'>
 				{press.map(p => (
 					<div key={p.id} className='w-full pb-8' onClick={() => handleImageClick(p)}>
-						<img src={p.highlight} alt={p.title} className='w-full cursor-pointer' loading='lazy' />
+						<img src={p.highlight} alt={p.title} className='w-full cursor-fancy' loading='lazy' />
 						<div className='flex justify-between text-2xl tracking-[-0.09rem] uppercase pt-2'>
 							<p>{p.title}</p>
 							<p>{p.year}</p>

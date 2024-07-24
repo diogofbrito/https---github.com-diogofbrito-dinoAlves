@@ -1,17 +1,17 @@
 import { Outlet } from 'react-router-dom';
-import { WipeyCanvas } from './components/WipeyCanvas/index.jsx';
 import { AppProvider } from './contexts/AppContext';
 import { Menu } from './components/Menu';
-import {  NextUIProvider } from '@nextui-org/react';
+import { NextUIProvider } from '@nextui-org/react';
+import { ScrollProvider } from './contexts/ScrollContext.jsx';
 
 function App() {
-
-
 	return (
 		<NextUIProvider>
 			<AppProvider>
-				<Menu />
-				<Outlet />
+				<ScrollProvider>
+					<Menu />
+					<Outlet />
+				</ScrollProvider>
 			</AppProvider>
 		</NextUIProvider>
 	);

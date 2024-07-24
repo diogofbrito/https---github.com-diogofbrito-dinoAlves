@@ -1,13 +1,57 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
+import { gsap } from 'gsap';
 
 export function Menu() {
 	const [menuOpen, setMenuOpen] = useState(false);
+	const menuRef = useRef(null);
+	const overlayRef = useRef(null);
 
 	useEffect(() => {
 		if (menuOpen) {
 			document.body.style.overflow = 'hidden';
+			gsap.fromTo(
+				menuRef.current,
+				{ yPercent: 100 },
+				{
+					yPercent: 0,
+					duration: 0.8,
+					ease: 'power4.out',
+					onComplete: () => {
+						gsap.set(menuRef.current, { clearProps: 'all' });
+					},
+				},
+			);
+			gsap.fromTo(
+				overlayRef.current,
+				{ opacity: 0 },
+				{
+					opacity: 1,
+					duration: 0.8,
+					ease: 'power4.out',
+					onComplete: () => {
+						gsap.set(overlayRef.current, { clearProps: 'all' });
+					},
+				},
+			);
 		} else {
+			gsap.to(menuRef.current, {
+				yPercent: 100,
+				duration: 0.8,
+				ease: 'power4.in',
+				onComplete: () => {
+					gsap.set(menuRef.current, { clearProps: 'all' });
+				},
+			});
+
+			gsap.to(overlayRef.current, {
+				opacity: 0,
+				duration: 0.8,
+				ease: 'power4.in',
+				onComplete: () => {
+					gsap.set(overlayRef.current, { clearProps: 'all' });
+				},
+			});
 			document.body.style.overflow = '';
 		}
 
@@ -34,8 +78,8 @@ export function Menu() {
 			)}
 			{menuOpen && (
 				<>
-					<div className='fixed inset-0 z-40 transition-opacity duration-300' onClick={toggleMenu} />
-					<div className='flex flex-col items-center text-center fixed top-0 left-0 right-0 bottom-0 overflow-hidden uppercase bg-white bg-opacity-50 backdrop-blur-2xl z-50'>
+					<div ref={overlayRef} className='fixed inset-0 z-40 transition-opacity duration-300' onClick={toggleMenu} />
+					<div ref={menuRef}  className='flex flex-col items-center text-center fixed top-0 left-0 right-0 bottom-0 overflow-hidden uppercase bg-white bg-opacity-50 backdrop-blur-2xl z-50 '>
 						<div className='p-8'>DINO ALVES</div>
 						<div className='relative w-full flex h-full text-center items-center overflow-y-auto'>
 							<ul className='flex-grow'>

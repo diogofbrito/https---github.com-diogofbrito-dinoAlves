@@ -1,14 +1,11 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import { AppContext } from '../contexts/AppContext';
 import { MarqueeComp } from '../components/MarqueeComp';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 
-
 export function Colecoes() {
 	const { colecoes } = useContext(AppContext);
-
-	
 
 	return (
 		<>
@@ -16,7 +13,8 @@ export function Colecoes() {
 				<title>DINO ALVES | COLECOES </title>
 				<meta name='description' content='As coleções mais recentes.' />
 			</Helmet>
-			<div className='container-default '>
+
+			<div className='container-default'>
 				<div className='flex flex-col gap-16'>
 					{colecoes.map(colecao => (
 						<Link to={`/colecoes/${colecao.id}`} key={colecao.id}>

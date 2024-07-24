@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-export default function useWindow() {
+export function useWindow() {
     const [dimension, setDimension] = useState({ width: 0, height: 0 });
     
     const resize = () => {
@@ -12,6 +12,7 @@ export default function useWindow() {
 
     useEffect(() => {
         window.addEventListener('resize', resize);
+        resize();
         return () => window.removeEventListener('resize', resize);
     }, []); 
 

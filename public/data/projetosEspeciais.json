@@ -32,7 +32,6 @@
 				"/imgs/Especiais/2022/Festival Cancao/ESPCL2022_CANCAO_04.webp",
 				"/imgs/Especiais/2022/Festival Cancao/ESPCL2022_CANCAO_05.webp",
 				"/imgs/Especiais/2022/Festival Cancao/ESPCL2022_CANCAO_03.webp"
-		
 			]
 		},
 		{
@@ -44,54 +43,25 @@
 				"/imgs/Especiais/2021/Festival Cancao/ESPCL2021_CANCAO_02.webp",
 				"/imgs/Especiais/2021/Festival Cancao/ESPCL2021_CANCAO_03.webp",
 				"/imgs/Especiais/2021/Festival Cancao/ESPCL2021_CANCAO_04.webp"
-	
-			]
-		},
-		{
-			"id": 4,
-			"title": "Revista Fora de Série - ED. JUNHOd",
-			"year": "2013",
-			"highlights": [
-				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_08.webp",
-				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_01.webp",
-				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_02.webp",
-				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_03.webp",
-				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_04.webp",
-				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_05.webp",
-				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_06.webp",
-				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_07.webp",
-				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_09.webp",
-				"/imgs/Styling/2013/Fora de Serie/STYL2013_SERIE_JUN_10.webp"
-			]
-		},
-		{
-			"id": 5,
-			"title": "Revista Fora de Série  - ED. MAIOd",
-			"year": "2012",
-			"highlights": [
-				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_01.webp",
-				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_02.webp",
-				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_03.webp",
-				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_04.webp",
-				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_05.webp",
-				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_06.webp",
-				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_07.webp",
-				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_08.webp",
-				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_09.webp",
-				"/imgs/Styling/2012/Fora de Serie/STYL2012_SERIE_MAI_10.webp"
 			]
 		},
 		{
 			"id": 6,
-			"title": "Revista Fora de Séried",
-			"year": "2009",
+			"title": "OH MY GOD!",
+			"year": "2007",
 			"highlights": [
-				"/imgs/Styling/2009/Fora de Serie/STYL2009_SERIE_01.webp",
-				"/imgs/Styling/2009/Fora de Serie/STYL2009_SERIE_02.webp",
-				"/imgs/Styling/2009/Fora de Serie/STYL2009_SERIE_03.webp",
-				"/imgs/Styling/2009/Fora de Serie/STYL2009_SERIE_04.webp",
-				"/imgs/Styling/2009/Fora de Serie/STYL2009_SERIE_05.webp",
-				"/imgs/Styling/2009/Fora de Serie/STYL2009_SERIE_06.webp"
+				"/imgs/Especiais/2007/God/ESPCL2007_GOD_01.webp",
+				"/imgs/Especiais/2007/God/ESPCL2007_GOD_02.webp",
+				"/imgs/Especiais/2007/God/ESPCL2007_GOD_03.webp",
+				"/imgs/Especiais/2007/God/ESPCL2007_GOD_04.webp",
+				"/imgs/Especiais/2007/God/ESPCL2007_GOD_05.webp",
+				"/imgs/Especiais/2007/God/ESPCL2007_GOD_06.webp",
+				"/imgs/Especiais/2007/God/ESPCL2007_GOD_07.webp",
+				"/imgs/Especiais/2007/God/ESPCL2007_GOD_08.webp",
+				"/imgs/Especiais/2007/God/ESPCL2007_GOD_09.webp",
+				"/imgs/Especiais/2007/God/ESPCL2007_GOD_10.webp",
+				"/imgs/Especiais/2007/God/ESPCL2007_GOD_11.webp",
+				"/imgs/Especiais/2007/God/ESPCL2007_GOD_12.webp"
 			]
 		}
 	]

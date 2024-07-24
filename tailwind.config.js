@@ -24,6 +24,9 @@ export default {
 		filter: {
 			'blur-custom': 'blur(0.15rem)',
 		},
+		cursor: {
+			'fancy': 'url(/assets/cursor/zoomIn-cursor.cur), zoom-in',
+		}
 	},
 	plugins: [
 		function ({ addUtilities }) {

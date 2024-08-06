@@ -19,7 +19,7 @@ export function Sobre() {
 	return (
 		<>
 			<CustomCursor logoSrc={DinoAlves} />
-			<div className='container-default'>
+			<div className='container-default bg-white'>
 				<div className='flex justify-center gap-14 mb-8 '>
 					<button className={`text-5xl tracking-[-0.15rem]  hover:bg-black hover:blur-md ${view === 'marca' ? '' : 'blur-custom'}`} onClick={() => handleClick('marca')}>
 						MARCA

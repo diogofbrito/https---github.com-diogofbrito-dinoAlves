@@ -8,7 +8,7 @@ export function Press() {
 	const [isVisible, setIsVisible] = useState(false);
 
 	const breakpointColumnsObj = {
-		default: 3,
+		default: 4,
 		1100: 2,
 	};
 
@@ -16,14 +16,14 @@ export function Press() {
 		setExpandedImage(image);
 		setTimeout(() => {
 			setIsVisible(true);
-		}, 0); 
+		}, 0);
 	};
 
 	const closeModal = () => {
 		setIsVisible(false);
 		setTimeout(() => {
 			setExpandedImage(null);
-		}, 300); 
+		}, 300);
 	};
 
 	return (
@@ -32,9 +32,9 @@ export function Press() {
 				{press.map(p => (
 					<div key={p.id} className='w-full pb-8' onClick={() => handleImageClick(p)}>
 						<img src={p.highlight} alt={p.title} className='w-full cursor-fancy' loading='lazy' />
-						<div className='flex justify-between text-2xl tracking-[-0.09rem] uppercase pt-2'>
-							<p>{p.title}</p>
-							<p>{p.year}</p>
+						<div className='flex justify-between tracking-[-0.09rem] uppercase pt-2'>
+							<p className='text-3xl'>{p.title}</p>
+							<p className='text-3xl'>{p.year}</p>
 						</div>
 					</div>
 				))}

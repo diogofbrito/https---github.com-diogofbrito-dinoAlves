@@ -35,7 +35,7 @@ export function IntroOpening() {
 	return (
 		<>
 			<div className='introPage' ref={comp}>
-				<div id='intro__slider' className='fixed flex justify-center items-center bg-white top-0 left-0 bottom-0 right-0 z-50'>
+				<div id='intro__slider' className='fixed flex justify-center items-center bg-white top-0 left-0 bottom-0 right-0 z-[999]'>
 					<img id='title_1' src='/imgs/Logo/DA_logo.png' alt='Dino Alves logo' />
 				</div>
 			</div>

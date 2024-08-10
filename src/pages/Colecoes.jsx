@@ -15,7 +15,7 @@ export function Colecoes() {
 				<meta name='description' content='As coleções mais recentes.' />
 			</Helmet>
 
-			<div className='container-default bg-slate-50'>
+			<div className='container-default '>
 				<div className='flex flex-col gap-16'>
 					{colecoes.map(colecao => (
 						<Link to={`/colecoes/${colecao.id}`} key={colecao.id}>

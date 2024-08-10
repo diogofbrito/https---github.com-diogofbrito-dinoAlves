@@ -11,8 +11,8 @@ function App() {
 			<AppProvider>
 				<ScrollProvider>
 					<Menu />
-				
-					<Outlet />
+{/* 					<WipeyCanvas />
+ */}					<Outlet />
 				</ScrollProvider>
 			</AppProvider>
 		</NextUIProvider>

@@ -68,8 +68,8 @@ export function Menu() {
 	}
 
 	return (
-		<>
-			<div className='mix-blend-difference -tracking-[0.15rem] text-5xl z-50'>
+		<div>
+			<div className='relative mix-blend-difference -tracking-[0.15rem] text-5xl z-50'>
 				{!menuOpen && (
 					<div className='fixed bottom-8 left-2/4 -translate-x-1/2'>
 						<button className='text-white uppercase  hover:bg-white hover:blur-md mix-blend-difference' onClick={toggleMenu}>
@@ -145,6 +145,6 @@ export function Menu() {
 					</>
 				)}
 			</div>
-		</>
+		</div>
 	);
 }

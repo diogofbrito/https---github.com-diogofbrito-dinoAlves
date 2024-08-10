@@ -8,7 +8,7 @@ export function Press() {
 	const [isVisible, setIsVisible] = useState(false);
 
 	const breakpointColumnsObj = {
-		default: 3,
+		default: 4,
 		1100: 2,
 	};
 

@@ -1,4 +1,3 @@
-// contexts/ScrollContext.js
 import React, { createContext, useContext, useEffect, useRef } from 'react';
 
 const ScrollContext = createContext();

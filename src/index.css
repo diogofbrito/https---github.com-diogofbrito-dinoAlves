@@ -71,6 +71,8 @@ p {
 	color: var(--black);
 }
 
+
+
 body {
 	font-family: var(--text-font);
 	text-rendering: optimizeLegibility;

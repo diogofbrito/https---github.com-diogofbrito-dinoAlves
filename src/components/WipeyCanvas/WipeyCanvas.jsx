@@ -1,138 +1,85 @@
 import React, { useEffect, useRef, useState } from 'react';
-import './style.css'; // Certifique-se de que este caminho está correto
+import './style.css';
 
 export function WipeyCanvas() {
 	const canvasRef = useRef(null);
-	const [interact, setInteract] = useState(true);
-	const [wipeyFrame, setWipeyFrame] = useState(0);
-	const [canvasData, setCanvasData] = useState({
-		color1: '51,245,246',
-		color2: '250,48,51',
-		alphaArrayMaxCumulativeOpacity: 0,
-	});
+	const [color1] = useState('51,245,246'); // Cor inicial
+	const [color2] = useState('250,48,51'); // Cor para alternar
+	const [currentColor, setCurrentColor] = useState(color1);
+	const [transitioning, setTransitioning] = useState(false);
+
+	const brushSize = 190;
+	const transitionDuration = 1000; // Duração da transição em milissegundos
 
 	useEffect(() => {
 		const canvas = canvasRef.current;
 		const ctx = canvas.getContext('2d');
+		resizeCanvas();
 
-		let imageDataArray, cumulativeOpacity, pixelArrayLength;
-		let alphaArrayLength;
-
-		const setupCanvas = () => {
-			try {
-				document.body.style.backgroundColor = `rgb(${canvasData.color2})`;
-				canvas.width = window.innerWidth;
-				canvas.height = window.innerHeight;
-				ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-				fillCanvasWithSolidColor();
-
-				imageDataArray = ctx.getImageData(0, 0, canvas.width, canvas.height).data;
-				pixelArrayLength = imageDataArray.length;
-				alphaArrayLength = pixelArrayLength / 4;
-				setCanvasData(prevData => ({
-					...prevData,
-					alphaArrayMaxCumulativeOpacity: alphaArrayLength * 255,
-				}));
-				cumulativeOpacity = alphaArrayLength * 255;
-			} catch (error) {
-				console.error('Erro ao configurar o canvas:', error);
-			}
-		};
-
-		const fillCanvasWithSolidColor = () => {
-			try {
-				ctx.fillStyle = `rgb(${canvasData.color1})`;
-				ctx.fillRect(0, 0, canvas.width, canvas.height);
-			} catch (error) {
-				console.error('Erro ao preencher o canvas com cor sólida:', error);
-			}
-		};
-
-		const wipeCanvas = (x, y) => {
-			if (interact) {
-				try {
-					document.body.style.backgroundColor = `rgb(${canvasData.color2})`;
-
-					const widthOfRect = window.innerWidth * 0.15;
-					const halfOfRect = widthOfRect / 2;
-					const grd = ctx.createRadialGradient(x, y, 0, x, y, halfOfRect);
-					grd.addColorStop(0, `rgba(${canvasData.color2},1)`);
-					grd.addColorStop(1, `rgba(${canvasData.color1},0)`);
-
-					ctx.fillStyle = grd;
-					ctx.globalCompositeOperation = 'destination-out';
-					ctx.beginPath();
-					ctx.arc(x, y, halfOfRect, 0, 2 * Math.PI);
-					ctx.fill();
-
-					if (wipeyFrame % 10 === 0) {
-						imageDataArray = ctx.getImageData(0, 0, canvas.width, canvas.height).data;
-						cumulativeOpacity = 0;
-
-						for (let i = 3; i < pixelArrayLength; i += 4) {
-							cumulativeOpacity += imageDataArray[i];
-						}
-
-						if (cumulativeOpacity < canvasData.alphaArrayMaxCumulativeOpacity * 0.002) {
-							const color1Swap = canvasData.color1;
-							setCanvasData(prevData => ({
-								...prevData,
-								color1: canvasData.color2,
-								color2: color1Swap,
-							}));
-
-							setupCanvas();
-							setInteract(true);
-						}
-					}
-					setWipeyFrame(prev => prev + 1);
-				} catch (error) {
-					console.error('Erro ao aplicar o efeito de apagar:', error);
-				}
-			}
-		};
+		fillCanvas(ctx, currentColor);
 
 		const handleMouseMove = e => {
-			if (!window.USER_IS_TOUCHING) {
-				wipeCanvas(e.clientX, e.clientY);
-			}
+			wipeCanvas(ctx, e.clientX, e.clientY);
+			checkIfWiped(ctx, canvas);
 		};
 
 		const handleTouchMove = e => {
-			if (window.USER_IS_TOUCHING) {
-				const touch = e.touches[0];
-				wipeCanvas(touch.clientX, touch.clientY);
-			}
+			const touch = e.touches[0];
+			wipeCanvas(ctx, touch.clientX, touch.clientY);
+			checkIfWiped(ctx, canvas);
 		};
 
-		const handleTouchStart = () => {
-			document.body.classList.add('touchscreen');
-			window.USER_IS_TOUCHING = true;
-			window.removeEventListener('touchstart', handleTouchStart);
-		};
-
-		const handleResize = () => {
-			setupCanvas();
-		};
-
-		window.addEventListener('touchstart', handleTouchStart);
-		window.addEventListener('resize', handleResize);
-		window.addEventListener('mousemove', handleMouseMove);
-		window.addEventListener('touchmove', handleTouchMove);
-
-		setupCanvas();
+		canvas.addEventListener('mousemove', handleMouseMove);
+		canvas.addEventListener('touchmove', handleTouchMove);
+		window.addEventListener('resize', resizeCanvas);
 
 		return () => {
-			window.removeEventListener('mousemove', handleMouseMove);
-			window.removeEventListener('touchmove', handleTouchMove);
-			window.removeEventListener('resize', handleResize);
+			canvas.removeEventListener('mousemove', handleMouseMove);
+			canvas.removeEventListener('touchmove', handleTouchMove);
+			window.removeEventListener('resize', resizeCanvas);
 		};
-	}, [interact, wipeyFrame, canvasData]);
+	}, [currentColor]);
 
-	return (
-		<div className='fixed-canvas'>
-			<canvas ref={canvasRef} className={`absolute top-0 left-0 ${!interact ? 'canvasTransparent' : ''}`} />
-		</div>
-	);
+	const resizeCanvas = () => {
+		const canvas = canvasRef.current;
+		canvas.width = window.innerWidth;
+		canvas.height = window.innerHeight;
+	};
+
+	const fillCanvas = (ctx, color) => {
+		ctx.fillStyle = `rgb(${color})`;
+		ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+	};
+
+	const wipeCanvas = (ctx, x, y) => {
+		ctx.save();
+		ctx.beginPath();
+		ctx.arc(x, y, brushSize, 0, Math.PI * 2);
+		ctx.clip();
+		ctx.clearRect(x - brushSize, y - brushSize, brushSize * 2, brushSize * 2);
+		ctx.restore();
+	};
+
+	const checkIfWiped = (ctx, canvas) => {
+		const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+		const pixels = imageData.data;
+		let fullyWiped = true;
+		for (let i = 0; i < pixels.length; i += 4) {
+			if (pixels[i + 3] !== 0) {
+				fullyWiped = false;
+				break;
+			}
+		}
+		if (fullyWiped && !transitioning) {
+			setTransitioning(true);
+			setTimeout(() => {
+				const newColor = currentColor === color1 ? color2 : color1;
+				setCurrentColor(newColor);
+				setTransitioning(false);
+				fillCanvas(ctx, newColor);
+			}, transitionDuration);
+		}
+	};
+
+	return <canvas ref={canvasRef} className={`wipey-canvas ${transitioning ? 'transitioning' : ''}`}></canvas>;
 }

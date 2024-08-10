@@ -10,8 +10,9 @@ function App() {
 		<NextUIProvider>
 			<AppProvider>
 				<ScrollProvider>
-					<WipeyCanvas />
 					<Menu />
+{/* 					<WipeyCanvas />
+ */}
 					<Outlet />
 				</ScrollProvider>
 			</AppProvider>

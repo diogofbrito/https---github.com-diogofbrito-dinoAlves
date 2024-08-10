@@ -39,10 +39,6 @@ export const router = createBrowserRouter([
 				element: <Figurinos />,
 			},
 			{
-				path: '/figurinos/:year',
-				element: <Figurinos />,
-			},
-			{
 				path: '/styling',
 				element: <Styling />,
 			},

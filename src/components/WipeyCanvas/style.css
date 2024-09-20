@@ -6,11 +6,8 @@
   height: 100%;
   z-index: 999;
   transition: opacity 0.7s ease; /* Transição de opacidade */
-
 }
 
 .wipey-canvas.transitioning {
-  opacity: 0; /* Torna o canvas transparente durante a transição */
-  pointer-events: none;
-
+  opacity: 0;
 }

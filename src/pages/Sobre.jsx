@@ -34,9 +34,7 @@ export function Sobre() {
 						<p onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
 							{view === 'marca' ? (
 								<>
-									Founded in 1994, 2x4 is a global design consultancy headquartered in New York City. The focus of our work is brand strategy for cultural and commercial clients who value the power of
-									design. We identify and clarify core institutional values and create innovative, experiential, participatory and visually-dynamic ways to engage key audiences worldwide. Our
-									intellectual and creative conviction is that thoughtful design can make an essential contribution to every level of cultural discourse. <br /> <br />
+									
 									A marca Dino Alves surgiu em 1997, durante a ModaLisboa – Lisboa Fashion Week. No entanto, o seu criador, com o mesmo nome, já havia participado e apresentado vários desfiles e
 									eventos de moda desde 1994.
 									<br />
